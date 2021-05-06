@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-06T08:55:32.953Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="z-o_lf7_L060t8WQDFOx" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-06T10:12:07.118Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="KpRzt3w7Qrwuao6yjrwr" version="14.6.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2249" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1965" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -56,7 +56,7 @@
         <mxCell id="jHolvsN0XOzwWB7OhUbm-10" value="Trả về lỗi tương ứng" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="620" y="130" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jHolvsN0XOzwWB7OhUbm-12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;Xử lý tích hợp&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;i&gt;&lt;span style=&quot;text-align: center&quot;&gt;Coi như nguồn là A, đích là B&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. Cập nhập email của tất cả các tài khoản tích hợp thành email của tài khoản đích&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. Vô hiệu hóa tài khoản A -&amp;gt; không thể đăng nhập được bằng tài khoản A nữa&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. Gửi mail thông báo về việc tích hợp cho các tài khoản( trừ foreman = role 6)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;&lt;span&gt;4. Logout các tài khoản đang đươc tích hợp( cần confirm QA xem logout cụ thể tài khoản nào hay tất cả)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="jHolvsN0XOzwWB7OhUbm-12" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;b&gt;Xử lý tích hợp&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;i&gt;&lt;span style=&quot;text-align: center&quot;&gt;Coi như nguồn là A, đích là B&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. Cập nhập email của tất cả các tài khoản tích hợp( đích và nguồn) thành email của tài khoản đích&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. Vô hiệu hóa tài khoản A -&amp;gt; không thể đăng nhập được bằng tài khoản A nữa&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. Gửi mail thông báo về việc tích hợp(đích và nguồn - Cần QA thêm để rõ hơn, spec chưa nhắc chi tiết đến phần này) cho các tài khoản( trừ foreman = role 6)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;div&gt;&lt;span&gt;4. Logout các tài khoản đang đươc tích hợp( cần confirm QA xem logout cụ thể tài khoản nào hay tất cả)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;5. Lưu ý xử lý chuyển đổi tất cả tài khoản sub_user của A thành sub_user của B( nếu có)&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="330" y="280" width="360" height="210" as="geometry" />
         </mxCell>
         <mxCell id="jHolvsN0XOzwWB7OhUbm-15" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -90,7 +90,7 @@
             <mxPoint x="380" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zIeO4mX2KZUvqB7qtyrd-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zIeO4mX2KZUvqB7qtyrd-22" target="zIeO4mX2KZUvqB7qtyrd-41">
+        <mxCell id="zIeO4mX2KZUvqB7qtyrd-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zIeO4mX2KZUvqB7qtyrd-22" target="zIeO4mX2KZUvqB7qtyrd-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zIeO4mX2KZUvqB7qtyrd-22" value="- Kiêm tra user đích tích hợp đã đủ 100 user chưa?&lt;br&gt;- Kiểm tra user đích có bị block hay không?&lt;br&gt;- Kiêm tra 2 user có cùng role hay không?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -133,9 +133,6 @@
         </mxCell>
         <mxCell id="zIeO4mX2KZUvqB7qtyrd-40" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="285" y="1118" width="30" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="zIeO4mX2KZUvqB7qtyrd-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zIeO4mX2KZUvqB7qtyrd-41" target="zIeO4mX2KZUvqB7qtyrd-22">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zIeO4mX2KZUvqB7qtyrd-41" value="Thực hiện tích hơp" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="60" y="1260" width="120" height="60" as="geometry" />
@@ -193,6 +190,12 @@
         </mxCell>
         <mxCell id="zIeO4mX2KZUvqB7qtyrd-64" value="&lt;div style=&quot;text-align: left&quot;&gt;- Ghi đè user_id đã chọn trên vào user_id đã có trong redis dựa vào &lt;b&gt;session_principals&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Clear tất các cả thông tin khác ngoại trừ user_id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- Set lại current_user cho hệ thống và toàn bộ các tính năng đi kèm&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-570" y="650" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zIeO4mX2KZUvqB7qtyrd-67" value="Kiểm tra user chỉnh sửa có phải là user đã được tích hợp hay không?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-270" y="680" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zIeO4mX2KZUvqB7qtyrd-68" value="Kiểm tra user chỉnh sửa có phải là main_user hay không?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-275" y="820" width="125" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
