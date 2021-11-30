@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-30T06:26:10.039Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="8dRErPETA-aST1TQm3SA" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-30T06:34:59.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Z2B_8mKxn_UkGfWbVEh8" version="15.8.6" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1678" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -83,6 +83,164 @@
         </mxCell>
         <mxCell id="WFbMBUP2ziU1kK5NttpU-26" value="Mỗi step đều ghi lại log, đồng thời handle error xảy ra thì sẽ &lt;br&gt;1. rollback toàn toàn bộ quá trình&lt;br&gt;2. update @progress_aggrergate_history.status = error&lt;br&gt;3. Gửi mail lỗi/thành công tương ứng." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="30" y="1340" width="345" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1vLqcknvX-34HEY4nWMS" name="Page-2">
+    <mxGraphModel dx="1426" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-0" />
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-1" parent="Y1YA_CgOly7EXAXlO_jH-0" />
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-2" value="&lt;b style=&quot;text-align: center&quot;&gt;Duyệt mảng&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;text-align: center&quot;&gt;changed_works&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;dashed=1;verticalAlign=top;fontStyle=1;strokeColor=#d6b656;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1150" y="1210" width="1600" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-4" target="Y1YA_CgOly7EXAXlO_jH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-4" value="START" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1350" y="630" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-6" target="Y1YA_CgOly7EXAXlO_jH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-6" value="&lt;b&gt;Lấy changed_works[] từ bảng works theo điều kiện:&lt;br&gt;&lt;/b&gt;updated_at/deleted_at/created_at nằm trong khoảng&lt;br&gt;[last_success_at, current_aggregated_at]&lt;br&gt;--------&lt;br&gt;Left join&amp;nbsp;progress_work_type_settings để lấy cột&amp;nbsp;item_list_id và id&lt;br&gt;(on main_work_type_id, &lt;u&gt;sub_work_type_id&lt;/u&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1230" y="910" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-9" target="Y1YA_CgOly7EXAXlO_jH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-9" target="Y1YA_CgOly7EXAXlO_jH-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-9" value="&lt;b&gt;Lấy thông tin chạy batch thành công gần nhất từ bảng&amp;nbsp;progress_aggregate_histories (của field_id)&lt;br&gt;&lt;/b&gt;status = 1&lt;br&gt;field_id&lt;br&gt;------&lt;br&gt;&lt;b&gt;Sắp xếp giảm dần theo id, lấy giá trị đầu tiên (limit 1)&lt;/b&gt;&lt;br&gt;last_success_id =&amp;nbsp;id&lt;br&gt;last_success_at =&amp;nbsp;&amp;nbsp;aggregated_at" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1230" y="730" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-11" target="Y1YA_CgOly7EXAXlO_jH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-11" value="&lt;b&gt;Tạo mới thông tin chạy batch lần này&amp;nbsp;&lt;/b&gt;&lt;b&gt;(của field_id)&lt;/b&gt;&lt;b&gt;&lt;br&gt;&amp;nbsp;bảng&amp;nbsp;progress_aggregate_histories&lt;br&gt;&lt;/b&gt;status = 0&lt;br&gt;field_id&lt;br&gt;aggregated_at = aggregated_time&amp;nbsp;&lt;br&gt;------&lt;br&gt;&lt;b&gt;Kết quả&lt;/b&gt;&lt;br&gt;current_id =&amp;nbsp;id" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1230" y="450" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-13" target="Y1YA_CgOly7EXAXlO_jH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-13" value="&lt;b&gt;Duyệt mảng: i = 0-&amp;gt;length&lt;br&gt;&lt;/b&gt;changed_work =&amp;nbsp;changed_works[i]&lt;br&gt;------&lt;br&gt;&lt;b&gt;Tính toán trong vòng lặp:&lt;/b&gt;&lt;br&gt;&lt;br&gt;is_in_setting = changed_work.setting_id != null &amp;amp;&amp;amp; (item_list_id&amp;nbsp; == null ||&amp;nbsp;changed_work.a/b/c/d(tương ứng item_list_id) != null)&lt;br&gt;&lt;br&gt;progress_aggregated_work&amp;nbsp;=&amp;nbsp;progress_aggregated_works&lt;br&gt;.filter(work_id == changed_work.id)&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1190" y="1250" width="440" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-16" target="Y1YA_CgOly7EXAXlO_jH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-16" target="Y1YA_CgOly7EXAXlO_jH-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-16" value="&lt;b&gt;Lấy progress_aggregated_works điều kiện:&lt;/b&gt;&lt;br&gt;work_id in changed_works[id]" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1230" y="1070" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-20" target="Y1YA_CgOly7EXAXlO_jH-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1660" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-18" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y1YA_CgOly7EXAXlO_jH-17">
+          <mxGeometry x="-0.3143" y="-2" relative="1" as="geometry">
+            <mxPoint x="6" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-19" value="FALSE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-20" target="Y1YA_CgOly7EXAXlO_jH-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-20" value="&lt;span style=&quot;font-style: normal&quot;&gt;! is_in_setting&amp;nbsp;or&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-style: normal&quot;&gt;changed_work.deleted or&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-style: normal&quot;&gt;changed_work.blocked&lt;/span&gt;&lt;span style=&quot;font-style: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fontStyle=2" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1290" y="1480" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-22" target="Y1YA_CgOly7EXAXlO_jH-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-22" value="&lt;b&gt;Tìm&amp;nbsp;&lt;/b&gt;&lt;b&gt;old_&lt;/b&gt;&lt;b&gt;progress_aggregate_result theo:&lt;/b&gt;&lt;br&gt;work_date,&amp;nbsp;main_work_type_id,&amp;nbsp;&lt;u&gt;sub_work_type_id,&amp;nbsp;place_item_id&lt;/u&gt;&lt;br&gt;(của progress_aggregated_work)&lt;br&gt;--------&lt;br&gt;Nếu old_progress_aggregate_result != null: Trừ man_hours" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1950" y="1470" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-23" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-25" target="Y1YA_CgOly7EXAXlO_jH-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-24" value="FALSE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-25" target="Y1YA_CgOly7EXAXlO_jH-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-25" value="&lt;span style=&quot;font-style: normal&quot;&gt;progress_aggregated_work&amp;nbsp; != null ?&lt;/span&gt;&lt;span style=&quot;font-style: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fontStyle=2" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1630" y="1700" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-27" target="Y1YA_CgOly7EXAXlO_jH-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-27" value="&lt;b&gt;Tìm old_progress_aggregate_result theo:&lt;/b&gt;&lt;br&gt;work_date,&amp;nbsp;main_work_type_id,&lt;u&gt;&amp;nbsp;sub_work_type_id,&amp;nbsp;place_item_id&lt;br&gt;&lt;/u&gt;(của progress_aggregated_work)&lt;br&gt;--------&lt;br&gt;Nếu old_progress_aggregate_result&amp;nbsp;!= null: Trừ man_hours&lt;br&gt;--------" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1950" y="1670" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-28" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-29" target="Y1YA_CgOly7EXAXlO_jH-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-29" value="&lt;span style=&quot;font-style: normal&quot;&gt;progress_aggregated_work&amp;nbsp; != null ?&lt;/span&gt;&lt;span style=&quot;font-style: normal&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fontStyle=2" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1630" y="1490" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-31" target="Y1YA_CgOly7EXAXlO_jH-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-31" value="&lt;b&gt;Tìm new_progress_aggregate_result theo:&lt;/b&gt;&lt;br&gt;work_date,&amp;nbsp;main_work_type_id,&amp;nbsp;&lt;u&gt;sub_work_type_id,&amp;nbsp;place_item_id&lt;/u&gt;&lt;br&gt;(của changed_work)&lt;br&gt;--------&lt;br&gt;Nếu&amp;nbsp;new_progress_aggregate_result&amp;nbsp;!= null: Cộng man_hours&lt;br&gt;Nếu&amp;nbsp;new_progress_aggregate_result == null: Tạo cùng man_hours" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1230" y="1670" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-32" value="&lt;b&gt;Xoá progress_aggregated_work&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="2350" y="1470" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-33" value="&lt;b&gt;Update&amp;nbsp;progress_aggregated_works với&lt;/b&gt;&lt;br&gt;work_date, main_work_type_id, sub_work_type_id, place_item_id)&lt;br&gt;(của changed_work)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="2350" y="1670" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-34" value="&lt;b&gt;Tạo mới progress_aggregated_works với&lt;/b&gt;&lt;br&gt;work_date, main_work_type_id, sub_work_type_id, place_item_id)&lt;br&gt;(của changed_work)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1950" y="1870" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-36" target="Y1YA_CgOly7EXAXlO_jH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-36" value="&lt;b&gt;Lấy&amp;nbsp;&lt;/b&gt;&lt;b&gt;progress_aggregate_results:&lt;br&gt;&lt;br&gt;Theo changed_works: &lt;/b&gt;&lt;br&gt;work_date,&amp;nbsp;main_work_type_id, sub_work_type_id,&amp;nbsp;&lt;u&gt;place_item_id&lt;br&gt;&lt;/u&gt;works.id in changed_works[id]&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;br&gt;&lt;b&gt;Hoặc theo&amp;nbsp;progress_aggregated_works :&lt;/b&gt;&lt;br&gt;work_date,&amp;nbsp;main_work_type_id, sub_work_type_id,&amp;nbsp;&lt;u&gt;place_item_id&lt;br&gt;&lt;/u&gt;progress_aggregated_works.id in&amp;nbsp;progress_aggregated_works[id]&lt;u&gt;&lt;br&gt;&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1670" y="1030" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-38" target="Y1YA_CgOly7EXAXlO_jH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-38" value="insert into progress_aggregate_histories (field_id, aggregated_at, status)&lt;br&gt;values (:field_id, :aggregated_time, 0)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;size=17;align=left;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1670" y="370" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-39" value="select * from&amp;nbsp;progress_aggregate_histories&lt;br&gt;where status = 1 and field = :field_id&lt;br&gt;order aggregated_at by desc&lt;br&gt;limit 1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;size=17;align=left;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1670" y="610" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-41" target="Y1YA_CgOly7EXAXlO_jH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-41" value="&lt;br&gt;aggregated_time = now()" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="1230" y="330" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-43" target="Y1YA_CgOly7EXAXlO_jH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-43" value="select works.*, work_settings.id as setting_id, work_settings.item_list_id from&amp;nbsp;works&lt;br&gt;&lt;br&gt;join work_groups on works.work_group_id = work_groups.id and work_groups.field_id = :field_id&lt;br&gt;&lt;br&gt;left join (&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;select settings.*, mains.field_id, mains.main_work_type_id, subs.sub_work_type_id from progress_work_type_settings as settings&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;left join field_main_work_types as mains on mains.id = settings.field_main_work_type_id&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;left join field_sub_work_types as subs on subs.id = settings.field_sub_work_type_id&lt;br&gt;) as work_settings on works.main_work_type_id = work_settings.main_work_type_id &lt;br&gt;and (work_settings.sub_work_type_id&amp;nbsp;= null or work_settings.sub_work_type_id = works.sub_work_type_id)&lt;br&gt;&lt;br&gt;where (updated_at between :last_success_at and :aggregated_time&amp;nbsp;)&lt;br&gt;or (deleted_at between :last_success_at and :aggregated_time&amp;nbsp;)&lt;br&gt;or (created_at between :last_success_at and :aggregated_time&amp;nbsp;)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;size=17;align=left;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="390" y="690" width="760" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-44" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-45" target="Y1YA_CgOly7EXAXlO_jH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-45" value="select * from&amp;nbsp;progress_aggregated_works&lt;br&gt;where id in (:&lt;span style=&quot;text-align: center&quot;&gt;changed_works[id]&lt;/span&gt;)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;size=17;align=left;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="870" y="1010" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-47" target="Y1YA_CgOly7EXAXlO_jH-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-47" value="&lt;b&gt;Danh sách update_results:&lt;/b&gt;&lt;br&gt;select distinct&amp;nbsp;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;* from&amp;nbsp;&lt;span style=&quot;text-align: center&quot;&gt;progress_aggregate_results as results&lt;br&gt;join works &lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;on&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;work_date =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;works.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;work_date &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;main_work_type_id =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;works.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;main_work_type_id&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;sub_work_type_id =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;works.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;sub_work_type_id&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;where works.id in :changed_work_ids &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; and (&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;place_item_id&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;= null &lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;place_item_id&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;works.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;a_item_id&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;place_item_id&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;works.b&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;_item_id&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;place_item_id&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;works.c&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;_item_id&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;place_item_id&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;works.d&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;_item_id)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;b&gt;Danh sách old_results:&lt;/b&gt;&lt;br&gt;select distinct&amp;nbsp;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;* from&amp;nbsp;&lt;span style=&quot;text-align: center&quot;&gt;progress_aggregate_results as results&lt;br&gt;join&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;progress_aggregated_works as works&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;on&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;work_date =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;works.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;work_date&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;main_work_type_id =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;works.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;main_work_type_id&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;sub_work_type_id =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;works.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;sub_work_type_id&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;where works.work_id in :changed_work_ids and&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;and&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;place_item_id&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;= null&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;results.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;place_item_id&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;works.&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;place_item_id&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;Danh sách results ảnh hưởng:&lt;br&gt;&lt;/b&gt;results = update_results + old_results (phần chung thì tính là 1 lần)&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;size=17;align=left;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="2150" y="770" width="560" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="Y1YA_CgOly7EXAXlO_jH-1" source="Y1YA_CgOly7EXAXlO_jH-49" target="Y1YA_CgOly7EXAXlO_jH-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1YA_CgOly7EXAXlO_jH-49" value="results.filter(result -&amp;gt; {&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;result.work_date ==&amp;nbsp; changed_work.work_date &amp;amp;&amp;amp;&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;result.main_work_type_id == changed_work.main_work_type_id &amp;amp;&amp;amp;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;(result.&lt;span style=&quot;text-align: center&quot;&gt;sub_work_type_id == null ||&amp;nbsp;&lt;/span&gt;result.&lt;span style=&quot;text-align: center&quot;&gt;sub_work_type_id ==&lt;/span&gt;&amp;nbsp;changed_work.&lt;span style=&quot;text-align: center&quot;&gt;sub_work_type_id)&lt;/span&gt;&amp;nbsp;&amp;amp;&amp;amp;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;(result.place_item_id == null || result.place_item_id == changed_work.a_item_id || result.place_item_id == &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;changed_work.b_item_id || result.place_item_id == changed_work.c_item_id || result.place_item_id == &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;changed_work.d_item_id)&lt;br&gt;})&lt;br&gt;Tương tự cho các block khác" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;size=17;align=left;" vertex="1" parent="Y1YA_CgOly7EXAXlO_jH-1">
+          <mxGeometry x="390" y="1490" width="600" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
