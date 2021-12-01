@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T06:57:26.666Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="gnuN2zWYR5HLErYPT2Dq" version="15.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-01T07:01:37.355Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="lodJ84RPMFl7hfjx54lU" version="15.5.0" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Batch ALL">
     <mxGraphModel dx="1143" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -350,7 +350,7 @@
           <mxGeometry y="1590" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="VUwFRzM8nIQZEjgPCMLg-7" value="" style="group" vertex="1" connectable="0" parent="r-6SCS9JS_Q6p-U2xnw3-1">
-          <mxGeometry x="30" y="30" width="710" height="540" as="geometry" />
+          <mxGeometry x="30" y="10" width="710" height="540" as="geometry" />
         </mxCell>
         <mxCell id="RsV1DuCLyckvF859KtTO-59" value="Lấy ra danh sách các progress_work_type_settings chưa được chạy batch (đổi địa điểm)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="VUwFRzM8nIQZEjgPCMLg-7">
           <mxGeometry x="10" width="190" height="80" as="geometry" />
