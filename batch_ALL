@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T02:51:51.353Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="iywCC9SdmyDG7EUevAPA" version="15.8.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-02T02:54:59.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="6fol361__RZd7DKjOT-g" version="15.8.7" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Batch ALL">
-    <mxGraphModel dx="1426" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -22,31 +22,26 @@
           <mxGeometry x="40.5" y="350" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="WFbMBUP2ziU1kK5NttpU-1" value="SELECT *&lt;br&gt;FROM works&lt;br&gt;INNER JOIN work_groups ON work_groups.id = works.work_group_id&lt;br&gt;INNER JOIN main_work_types ON main_work_types.id = works.&amp;nbsp;main_work_type_id&lt;br&gt;LEFT OUTER JOINS sub_work_types ON sub_work_types.id = works.sub_work_type_id&lt;br&gt;WHERE works.updated_at &amp;lt;=&amp;nbsp;@aggregated_time&lt;br&gt;AND work_groups.work_date BETWEEN (:start_date, :end_date)&lt;br&gt;AND work_groups.field_id = @progress_aggregate_history.field_id&lt;br&gt;AND&amp;nbsp;sub_work_types.other_flag !=1 OR sub_work_types.id IS NULL&lt;br&gt;AND works.main_work_type_id IS NOT NULL&lt;br&gt;AND works.state_handling_flag != 1&lt;br&gt;AND main_work_types.other_flag != 1&lt;br&gt;AND work_groups.deleted_at = &quot;1970/01/01&quot;&lt;br&gt;AND works.deleted_at = &quot;1970/01/01&quot;&lt;br&gt;AND main_work_types.deleted_at = &quot;1970/01/01&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="475.5" y="220" width="500" height="220" as="geometry" />
+          <mxGeometry x="460" y="150" width="500" height="220" as="geometry" />
         </mxCell>
         <mxCell id="WFbMBUP2ziU1kK5NttpU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-4" target="WFbMBUP2ziU1kK5NttpU-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WFbMBUP2ziU1kK5NttpU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-4" target="WFbMBUP2ziU1kK5NttpU-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="WFbMBUP2ziU1kK5NttpU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185.5" y="635" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WFbMBUP2ziU1kK5NttpU-4" value="Lấy thông tin progress_work_type_settings, tương ứng với field_id, group theo main, sub, nhằm xác định main, sub -&amp;gt; item_list_id&lt;br&gt;1. @progress_aggregate_history&lt;br&gt;&lt;br&gt;Sau đó thực hiện group theo main, sub để lấy item_list_id tương ứng:&amp;nbsp;&lt;b&gt;progress_work_type_setting_group&lt;/b&gt;&lt;br&gt;{ [main_work_type_id, sub_work_type_id] =&amp;gt; item_list_id }" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="13" y="470" width="345" height="130" as="geometry" />
         </mxCell>
         <mxCell id="WFbMBUP2ziU1kK5NttpU-5" value="SELECT *&lt;br&gt;FROM progress_work_type_settings&lt;br&gt;LEFT OUTER JOIN field_main_work_types ON field_main_work_types.id = progress_work_type_settings.field_main_work_type_id&lt;br&gt;LEFT OUTER JOIN field_sub_work_types ON field_sub_work_types.id = progress_work_type_settings.sub_work_type_id&lt;br&gt;WHERE field_main_work_types.field_id = @progress_aggregate_history.field_id&lt;br&gt;AND progress_work_type_settings.deleted_at = &quot;1970/01/01&quot;&lt;br&gt;AND field_main_work_types.deleted_at = &quot;1970/01/01&quot;&lt;br&gt;AND field_sub_work_types.deleted_at = &quot;1970/01/01&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="445.5" y="470" width="710" height="130" as="geometry" />
+          <mxGeometry x="385.5" y="410" width="710" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="WFbMBUP2ziU1kK5NttpU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-7" target="WFbMBUP2ziU1kK5NttpU-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WFbMBUP2ziU1kK5NttpU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-7" target="WFbMBUP2ziU1kK5NttpU-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WFbMBUP2ziU1kK5NttpU-7" value="Khái báo 5 mảng works tương ứng để xử lý với a_item_id, b_item_id, c_item_id, d_item_id và item_list_id = NULL&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;@work_calculate_by_a_item_ids&lt;/b&gt; = []&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;@work_calculate_by_b_item_ids&lt;/b&gt; = []&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;@work_calculate_by_c_item_ids&lt;/b&gt; = []&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;b&gt; @work_calculate_by_d_item_ids&lt;/b&gt; = []&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;@work_calculate_no_item_list_ids&lt;/b&gt; = []&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="13" y="635" width="345" height="125" as="geometry" />
-        </mxCell>
-        <mxCell id="WFbMBUP2ziU1kK5NttpU-11" value="&lt;b&gt;LOOP @works&lt;/b&gt;, check theo&amp;nbsp;&lt;b&gt;progress_work_type_setting_group&amp;nbsp;&lt;/b&gt;để push vào 5 mảng tương ứng bên cạnh. Nếu không tồn tại cặp key [main,work] tương ứng trong&amp;nbsp;&lt;b&gt;progress_work_type_setting_group&amp;nbsp;&lt;/b&gt;hoặc theo a,b,c,d_item_id nhưng cột bị NULL sẽ bỏ qua" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="445.5" y="646.25" width="260" height="102.5" as="geometry" />
+        <mxCell id="WFbMBUP2ziU1kK5NttpU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WFbMBUP2ziU1kK5NttpU-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185.5" y="760" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WFbMBUP2ziU1kK5NttpU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-13" target="WFbMBUP2ziU1kK5NttpU-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -54,17 +49,17 @@
         <mxCell id="WFbMBUP2ziU1kK5NttpU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-13" target="WFbMBUP2ziU1kK5NttpU-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WFbMBUP2ziU1kK5NttpU-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-13" target="WFbMBUP2ziU1kK5NttpU-20" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="320" y="880" />
-              <mxPoint x="320" y="1130" />
-              <mxPoint x="186" y="1130" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="svgyyQOdpceF57m_RHif-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-13" target="svgyyQOdpceF57m_RHif-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1l3ttYltG2_9oUsnDF5G-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-13" target="1l3ttYltG2_9oUsnDF5G-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="880" />
+              <mxPoint x="250" y="1110" />
+              <mxPoint x="186" y="1110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="WFbMBUP2ziU1kK5NttpU-13" value="Xử lý với 5 mảng&amp;nbsp;&lt;b&gt;@work_calculate_by_a_item_ids (b,c,d),&amp;nbsp;&lt;/b&gt;&lt;b&gt;@work_calculate_no_item_list_ids. &lt;/b&gt;Xử lý group, tính toán data, import vào mảng&lt;b&gt;&amp;nbsp;@progress_aggregate_results&lt;/b&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="13" y="810" width="345" height="70" as="geometry" />
@@ -75,26 +70,43 @@
         <mxCell id="WFbMBUP2ziU1kK5NttpU-16" value="SELECT&amp;nbsp;&lt;br&gt;main_work_type_id,&lt;br&gt;sub_work_type_id,&lt;br&gt;work_groups.work_date AS work_date,&lt;br&gt;NULL AS place_item_id,&lt;br&gt;SUM(CASE WHEN work_groups.schedule_flag = 1 THEN works.calcd_sum_man_hours ELSE 0 END) AS schedule_man_hours,&lt;br&gt;SUM(CASE WHEN work_groups.schedule_flag = 0 THEN works.calcd_sum_man_hours ELSE 0 END) AS result_man_hours&lt;br&gt;FROM&lt;b&gt; @works&lt;/b&gt;&amp;nbsp;&lt;br&gt;WHERE works.in IN (&lt;b&gt;@work_calculate_no_item_list_ids&lt;/b&gt;)&lt;br&gt;GROUP BY&lt;br&gt;work_groups.work_date,&lt;br&gt;main_work_type_id,&lt;br&gt;sub_work_type_id" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="445.5" y="1000" width="710" height="215" as="geometry" />
         </mxCell>
-        <mxCell id="WFbMBUP2ziU1kK5NttpU-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-20" target="WFbMBUP2ziU1kK5NttpU-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WFbMBUP2ziU1kK5NttpU-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-20" target="WFbMBUP2ziU1kK5NttpU-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WFbMBUP2ziU1kK5NttpU-20" value="1. Bulk import progress_aggregatged_works, dựa vào mảng &lt;b&gt;@works&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="13" y="1230" width="345" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="WFbMBUP2ziU1kK5NttpU-22" value="SELECT works.id&lt;span&gt;,&amp;nbsp;&lt;/span&gt;works.&lt;span&gt;main_work_type_id, works.&lt;/span&gt;&lt;span&gt;sub_work_type_id,&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;CASE&lt;/div&gt;&lt;div&gt;WHEN progress_work_type_settings.item_list_id = 1 AND progress_work_type_settings.field_sub_work_type_id = field_sub_work_type_id.id THEN works.a_item_id&lt;/div&gt;&lt;div&gt;WHEN progress_work_type_settings.item_list_id = 2 AND progress_work_type_settings.field_sub_work_type_id = field_sub_work_type_id.id THEN works.b_item_id&lt;/div&gt;&lt;div&gt;WHEN progress_work_type_settings.item_list_id = 3 AND progress_work_type_settings.field_sub_work_type_id = field_sub_work_type_id.id THEN works.b_item_id&lt;/div&gt;&lt;div&gt;WHEN progress_work_type_settings.item_list_id = 4 AND progress_work_type_settings.field_sub_work_type_id = field_sub_work_type_id.id THEN works.b_item_id&lt;/div&gt;&lt;div&gt;ELSE NULL&amp;nbsp;&lt;span&gt;END AS place_item_id,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;work_groups.work_date AS work_date,&lt;/div&gt;&lt;div&gt;CASE WHEN work_groups.schedule_flag = 1 THEN works.calcd_sum_man_hours ELSE 0 END) AS schedule_man_hours,&lt;/div&gt;&lt;span&gt;CASE WHEN work_groups.schedule_flag = 0 THEN works.calcd_sum_man_hours ELSE 0 END) AS result_man_hours&lt;br&gt;&lt;/span&gt;FROM&lt;b&gt; @works&lt;/b&gt;&amp;nbsp;&lt;br&gt;LEFT OUTER JOIN&amp;nbsp;field_main_work_types ON&amp;nbsp;field_main_work_types.main_work_type_id = works.main_work_type_id&lt;br&gt;LEFT OUTER&amp;nbsp;JOIN&amp;nbsp;field_sub_work_types ON field_sub_work_types.sub_work_type_id = works.&amp;nbsp;field_sub_work_types&lt;br&gt;LEFT OUTER&amp;nbsp;JOIN&amp;nbsp;progress_work_type_settings ON&amp;nbsp;progress_work_type_settings.fied_main_work_type_id = field_main_work_types.id" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="283" y="1330" width="877" height="220" as="geometry" />
+        <mxCell id="WFbMBUP2ziU1kK5NttpU-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1l3ttYltG2_9oUsnDF5G-0" target="WFbMBUP2ziU1kK5NttpU-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185.5" y="1300" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WFbMBUP2ziU1kK5NttpU-24" value="End" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="125.5" y="1410" width="120" height="40" as="geometry" />
+          <mxGeometry x="5.5" y="1390" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WFbMBUP2ziU1kK5NttpU-26" value="Mỗi step đều ghi lại log, đồng thời handle error xảy ra thì sẽ &lt;br&gt;1. rollback toàn toàn bộ quá trình&lt;br&gt;2. update @progress_aggrergate_history.status = error&lt;br&gt;3. Gửi mail lỗi/thành công tương ứng." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40.5" y="180" width="345" height="70" as="geometry" />
         </mxCell>
         <mxCell id="svgyyQOdpceF57m_RHif-0" value="Bulk import progress_aggregate_results (Bằng một câu lệnh import) dựa vào mảng &lt;b&gt;@progress_aggregate_results&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="20" y="980" width="187" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UBo7ACk7U0r55q0Idaj--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UBo7ACk7U0r55q0Idaj--0" target="UBo7ACk7U0r55q0Idaj--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UBo7ACk7U0r55q0Idaj--0" value="Khái báo 5 mảng works tương ứng để xử lý với a_item_id, b_item_id, c_item_id, d_item_id và item_list_id = NULL&lt;br&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;@work_calculate_by_a_items&lt;/b&gt;&amp;nbsp;= []&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;@work_calculate_by_b_items&lt;/b&gt; = []&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;@work_calculate_by_c_items&lt;/b&gt; = []&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;b&gt; @work_calculate_by_d_itemss&lt;/b&gt; = []&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;@work_calculate_no_item_lists&lt;/b&gt; = []&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="13" y="635.92" width="297" height="129.08" as="geometry" />
+        </mxCell>
+        <mxCell id="UBo7ACk7U0r55q0Idaj--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UBo7ACk7U0r55q0Idaj--2" target="UBo7ACk7U0r55q0Idaj--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UBo7ACk7U0r55q0Idaj--2" value="Dựa vào mảng progress_work_type_setting_group, chia các cặp &lt;b&gt;main,sub&lt;/b&gt;, ra làm 5 nhóm:&lt;br&gt;1. Theo item_list_id = 1,2,3,4&lt;br&gt;2. Theo item_list_id = nil" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="339.99744234800835" y="648.8273202614381" width="276.8972746331237" height="103.26797385620917" as="geometry" />
+        </mxCell>
+        <mxCell id="UBo7ACk7U0r55q0Idaj--3" value="SELECT *&lt;br&gt;FROM &lt;b&gt;@works&lt;/b&gt;&lt;br&gt;WHERE ((main_work_type = main_work_type AND sub_work_type = sub_work_type) OR ......)&lt;br&gt;AND a_item_id IS NOT NULL&lt;br&gt;------------------------------------------------------------------------------------------------------------------------------------&lt;br&gt;(Cặp main,sub lấy ở bên cạnh - Vì cặp &lt;b&gt;main/sub này&lt;/b&gt; dữ liệu ít hơn rất nhiều so với &lt;b&gt;work_ids&lt;/b&gt;)&lt;br&gt;Phần xử lý a_item_id IS NOT NULL tương ứng cho b,c,d và &lt;b&gt;không&lt;/b&gt; xử lý đối với mảng&amp;nbsp;&lt;b&gt;work_calculate_no_item_lists&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="570" width="470" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iICW3kNjMdjXTj4XslM8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1l3ttYltG2_9oUsnDF5G-0" target="iICW3kNjMdjXTj4XslM8-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1l3ttYltG2_9oUsnDF5G-0" value="1. Bulk import progress_aggregatged_works, dựa vào mảng &lt;b&gt;@&lt;/b&gt;&lt;b&gt;work_calculate_no_item_lists,&lt;br&gt;&lt;/b&gt;&lt;b&gt;@work_calculate_by_a_items,&lt;br&gt;&lt;/b&gt;&lt;b&gt;@work_calculate_by_b_items,&lt;br&gt;&lt;/b&gt;&lt;b&gt;@work_calculate_by_c_items,&lt;br&gt;&lt;/b&gt;&lt;b&gt;@work_calculate_by_d_items&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="56.38999999999998" y="1190" width="258.23" height="100.46" as="geometry" />
+        </mxCell>
+        <mxCell id="iICW3kNjMdjXTj4XslM8-0" value="SELECT works.id&lt;span&gt;,&amp;nbsp;&lt;/span&gt;works.&lt;span&gt;main_work_type_id, works.&lt;/span&gt;&lt;span&gt;sub_work_type_id,&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;CASE&lt;/div&gt;&lt;div&gt;WHEN progress_work_type_settings.item_list_id = 1 AND progress_work_type_settings.field_sub_work_type_id = field_sub_work_type_id.id THEN works.a_item_id&lt;/div&gt;&lt;div&gt;WHEN progress_work_type_settings.item_list_id = 2 AND progress_work_type_settings.field_sub_work_type_id = field_sub_work_type_id.id THEN works.b_item_id&lt;/div&gt;&lt;div&gt;WHEN progress_work_type_settings.item_list_id = 3 AND progress_work_type_settings.field_sub_work_type_id = field_sub_work_type_id.id THEN works.b_item_id&lt;/div&gt;&lt;div&gt;WHEN progress_work_type_settings.item_list_id = 4 AND progress_work_type_settings.field_sub_work_type_id = field_sub_work_type_id.id THEN works.b_item_id&lt;/div&gt;&lt;div&gt;ELSE NULL&amp;nbsp;&lt;span&gt;END AS place_item_id,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;work_groups.work_date AS work_date,&lt;/div&gt;&lt;div&gt;CASE WHEN work_groups.schedule_flag = 1 THEN works.calcd_sum_man_hours ELSE 0 END) AS schedule_man_hours,&lt;/div&gt;&lt;span&gt;CASE WHEN work_groups.schedule_flag = 0 THEN works.calcd_sum_man_hours ELSE 0 END) AS result_man_hours&lt;br&gt;&lt;/span&gt;FROM&lt;b&gt;&amp;nbsp;(&lt;/b&gt;&lt;b&gt;@work_calculate_by_a_items&lt;/b&gt;&amp;nbsp;OR&amp;nbsp;&lt;b&gt;@work_calculate_by_b_items &lt;/b&gt;OR&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;b&gt;@work_calculate_by_c_items &lt;/b&gt;OR&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;b&gt;@work_calculate_by_d_items &lt;/b&gt;OR&lt;b&gt;&amp;nbsp;@work_calculate_no_item_lists)&lt;/b&gt;&lt;br&gt;LEFT OUTER JOIN&amp;nbsp;field_main_work_types ON&amp;nbsp;field_main_work_types.main_work_type_id = works.main_work_type_id&lt;br&gt;LEFT OUTER&amp;nbsp;JOIN&amp;nbsp;field_sub_work_types ON field_sub_work_types.sub_work_type_id = works.&amp;nbsp;field_sub_work_types&lt;br&gt;LEFT OUTER&amp;nbsp;JOIN&amp;nbsp;progress_work_type_settings ON&amp;nbsp;progress_work_type_settings.fied_main_work_type_id = field_main_work_types.id" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="207.00419287211736" y="1330.0004575163402" width="933.9958071278825" height="227.18954248366015" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -335,6 +347,9 @@
           <mxGeometry x="53.24947589098532" y="697.0588235294118" width="367.42138364779873" height="129.08496732026146" as="geometry" />
         </mxCell>
         <mxCell id="RsV1DuCLyckvF859KtTO-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="sSDgTFBMNbOVSoMMUStR-0" source="RsV1DuCLyckvF859KtTO-34" target="RsV1DuCLyckvF859KtTO-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWi1f5fFc3dsj06Epf7p-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sSDgTFBMNbOVSoMMUStR-0" source="RsV1DuCLyckvF859KtTO-39" target="fWi1f5fFc3dsj06Epf7p-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RsV1DuCLyckvF859KtTO-39" value="Dựa vào mảng progress_work_type_setting_group, chia các cặp &lt;b&gt;main,sub&lt;/b&gt;, ra làm 5 nhóm:&lt;br&gt;1. Theo item_list_id = 1,2,3,4&lt;br&gt;2. Theo item_list_id = nil" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" parent="sSDgTFBMNbOVSoMMUStR-0" vertex="1">
