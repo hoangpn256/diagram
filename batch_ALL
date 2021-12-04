@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T03:41:00.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="8P4ojb5G_yzFLSz9YIhn" version="15.8.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-04T03:41:50.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="P_fwdJRjT8DDzgRbfdnY" version="15.8.7" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Batch ALL">
     <mxGraphModel dx="1113" dy="626" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="uAmXVkTUW6dZBD79vU70-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WFbMBUP2ziU1kK5NttpU-0" target="uAmXVkTUW6dZBD79vU70-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WFbMBUP2ziU1kK5NttpU-0" value="Lấy danh sách &lt;br&gt;&lt;b&gt;1. @works - &lt;/b&gt;select các attribute từ &lt;b&gt;@all_works&lt;/b&gt;, phục vụ cho việc thống kê&lt;br&gt;2. &lt;b&gt;@all_works - &lt;/b&gt;riêng cho việc joining và truy vấn trong database, phụ vụ cho việc bulk delete &lt;b&gt;progress_aggregated_work&lt;/b&gt; tương ứng sau này&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WFbMBUP2ziU1kK5NttpU-0" value="Lấy danh sách&lt;br&gt;1. &lt;b&gt;@all_works - &lt;/b&gt;riêng cho việc joining và truy vấn trong database, phụ vụ cho việc bulk delete &lt;b&gt;progress_aggregated_work&lt;/b&gt; tương ứng sau này&lt;br&gt;2. &lt;b&gt;@works -&amp;nbsp;&lt;/b&gt;select các attribute từ&amp;nbsp;&lt;b&gt;@all_works&lt;/b&gt;, phục vụ cho việc thống kê&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="166" y="191" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="WFbMBUP2ziU1kK5NttpU-1" value="SQL sample" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
