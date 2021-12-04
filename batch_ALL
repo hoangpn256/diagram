@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T02:41:11.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="u8XX2f6lUUUBU1sqdEA7" version="15.8.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-04T02:44:50.392Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="61oIAU-UJxPHgSAfQWqZ" version="15.8.7" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Batch ALL">
-    <mxGraphModel dx="1892" dy="1064" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="626" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -97,33 +97,33 @@
           <mxGeometry x="390.5" y="703" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-34" value="" style="group;container=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="92.26" y="929" width="227.5" height="210" as="geometry">
-            <mxRectangle x="71.5" y="1080" width="50" height="44" as="alternateBounds" />
+          <mxGeometry x="61.25" y="923" width="289.75" height="210" as="geometry">
+            <mxRectangle x="92.26" y="929" width="50" height="44" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-20" value="1. Tạo mảng &lt;b&gt;@progress_aggregated_results&lt;/b&gt;&lt;br&gt;2. Loop &lt;b&gt;@&lt;/b&gt;&lt;b&gt;work_filter_calculates, &lt;/b&gt;assign dữ liệu&lt;b&gt; &lt;/b&gt;cho&lt;b&gt;&amp;nbsp;@progress_aggregated_results&lt;/b&gt;&lt;br&gt;3. Bulk import bằng&lt;b&gt; activerecord_import&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="uAmXVkTUW6dZBD79vU70-34">
-          <mxGeometry y="100" width="227.5" height="110" as="geometry" />
+          <mxGeometry y="100" width="289.75" height="110" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="uAmXVkTUW6dZBD79vU70-34" source="uAmXVkTUW6dZBD79vU70-24" target="uAmXVkTUW6dZBD79vU70-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-24" value="Xử lý đối với bảng &lt;b&gt;progress_aggregate_results&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="uAmXVkTUW6dZBD79vU70-34">
-          <mxGeometry x="24.620000000000005" width="178.26" height="50" as="geometry" />
+          <mxGeometry x="31.356681318681325" width="227.03663736263735" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-41" value="" style="group;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="92" y="1164" width="227.5" height="319" as="geometry" />
+          <mxGeometry x="61" y="1164" width="289.88" height="319" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-22" value="Xử lý đối với bảng &lt;b&gt;progress_aggregated_works&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="uAmXVkTUW6dZBD79vU70-41">
-          <mxGeometry x="24.620000000000005" width="178.26" height="50" as="geometry" />
+          <mxGeometry x="31.370749890109895" width="227.13850021978018" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-28" value="1. Tạo mảng &lt;b&gt;@progress_aggregated_results&lt;/b&gt;&lt;br&gt;2. Loop &lt;b&gt;@&lt;/b&gt;&lt;b&gt;work_filter_calculates, &lt;/b&gt;assign dữ liệu&lt;b&gt; &lt;/b&gt;cho&lt;b&gt;&amp;nbsp;@progress_aggregated_results&lt;/b&gt;&lt;br&gt;3. Bulk import bằng&lt;b&gt; activerecord_import&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="uAmXVkTUW6dZBD79vU70-41">
-          <mxGeometry y="209" width="227.5" height="110" as="geometry" />
+          <mxGeometry y="209" width="289.88" height="110" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="uAmXVkTUW6dZBD79vU70-41" source="uAmXVkTUW6dZBD79vU70-29" target="uAmXVkTUW6dZBD79vU70-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-29" value="Bulk delete các bản ghi &lt;b&gt;progress_aggregated_works&lt;/b&gt; tương ứng với &lt;b&gt;@all_works&lt;/b&gt; đang chạy batch" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="uAmXVkTUW6dZBD79vU70-41">
-          <mxGeometry x="24.620000000000005" y="90" width="178.26" height="70" as="geometry" />
+          <mxGeometry x="31.370749890109895" y="90" width="227.13850021978018" height="70" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="uAmXVkTUW6dZBD79vU70-41" source="uAmXVkTUW6dZBD79vU70-22" target="uAmXVkTUW6dZBD79vU70-29">
           <mxGeometry relative="1" as="geometry" />
@@ -149,11 +149,6 @@
         <mxCell id="uAmXVkTUW6dZBD79vU70-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uAmXVkTUW6dZBD79vU70-28" target="uAmXVkTUW6dZBD79vU70-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAmXVkTUW6dZBD79vU70-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.478;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uAmXVkTUW6dZBD79vU70-28" target="uAmXVkTUW6dZBD79vU70-50">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="205.75" y="1523" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uAmXVkTUW6dZBD79vU70-50" target="uAmXVkTUW6dZBD79vU70-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -161,13 +156,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-50" value="Update &lt;b&gt;@progress_aggrergate_history&lt;/b&gt; thành status success" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="84.5" y="1530" width="253" height="54" as="geometry" />
+          <mxGeometry x="61.190000000000005" y="1524" width="289.49" height="54" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-52" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="145.75" y="1610" width="120" height="28" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-54" value="SQL sample" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="466.5" y="1527" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uAmXVkTUW6dZBD79vU70-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uAmXVkTUW6dZBD79vU70-28" target="uAmXVkTUW6dZBD79vU70-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
