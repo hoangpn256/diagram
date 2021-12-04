@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T02:49:56.353Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="_-uINw-ZNp8vaP473YSv" version="15.8.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-04T02:50:07.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="zu6DNF9L-9KIJbffmABm" version="15.8.7" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Batch ALL">
     <mxGraphModel dx="1113" dy="626" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -155,7 +155,7 @@
         <mxCell id="uAmXVkTUW6dZBD79vU70-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uAmXVkTUW6dZBD79vU70-50" target="uAmXVkTUW6dZBD79vU70-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAmXVkTUW6dZBD79vU70-50" value="Update &lt;b&gt;@progress_aggrergate_history&lt;/b&gt; thành status success" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="uAmXVkTUW6dZBD79vU70-50" value="Update &lt;b&gt;@progress_aggrergate_history&lt;/b&gt; thành status &lt;b&gt;success&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="166.19" y="1515" width="289.49" height="54" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-52" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -170,7 +170,7 @@
         <mxCell id="uAmXVkTUW6dZBD79vU70-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uAmXVkTUW6dZBD79vU70-58" target="uAmXVkTUW6dZBD79vU70-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAmXVkTUW6dZBD79vU70-58" value="Update&amp;nbsp;&lt;b&gt;@progress_&lt;br&gt;aggrergate_history&lt;/b&gt;&lt;br&gt;thành status error, message: no work data" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;align=left;size=0;whiteSpace=wrap;html=1;horizontal=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="uAmXVkTUW6dZBD79vU70-58" value="Update&amp;nbsp;&lt;b&gt;@progress_&lt;br&gt;aggrergate_history&lt;/b&gt;&lt;br&gt;thành status &lt;b&gt;error&lt;/b&gt;, message: no work data" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;align=left;size=0;whiteSpace=wrap;html=1;horizontal=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="5" y="689.5" width="115" height="69" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-61" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
