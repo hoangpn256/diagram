@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T02:54:33.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="uqAHUp1W_9RIerAdJLhA" version="15.8.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-04T03:00:03.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="91az0zm8-WlptgXfPFY1" version="15.8.7" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Batch ALL">
     <mxGraphModel dx="1113" dy="626" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -144,17 +144,11 @@
         <mxCell id="uAmXVkTUW6dZBD79vU70-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uAmXVkTUW6dZBD79vU70-50" target="uAmXVkTUW6dZBD79vU70-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAmXVkTUW6dZBD79vU70-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uAmXVkTUW6dZBD79vU70-50" target="uAmXVkTUW6dZBD79vU70-54">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-50" value="Update &lt;b&gt;@progress_aggrergate_history&lt;/b&gt; thành status &lt;b&gt;success&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="166.19" y="1515" width="289.49" height="54" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-52" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="250.75" y="1601" width="120" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="uAmXVkTUW6dZBD79vU70-54" value="SQL sample" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="571.5" y="1518" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uAmXVkTUW6dZBD79vU70-28" target="uAmXVkTUW6dZBD79vU70-50">
           <mxGeometry relative="1" as="geometry" />
