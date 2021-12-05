@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T04:27:39.257Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="YqaLXlLgmvPQwkHfVYA4" version="15.8.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-05T08:13:36.058Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="e6BoO7DHKkVdl0cDpEkn" version="15.8.7" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Batch ALL">
-    <mxGraphModel dx="1372" dy="773" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="3151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -192,7 +192,7 @@
         <mxCell id="uAmXVkTUW6dZBD79vU70-68" value="Dữ liệu đầu vào là &lt;b&gt;@progress_aggregate_history&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="217.44" y="607" width="182.62" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JU5rvKVwVeTCvCTt9m4v-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uAmXVkTUW6dZBD79vU70-20" target="uAmXVkTUW6dZBD79vU70-43">
+        <mxCell id="JU5rvKVwVeTCvCTt9m4v-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uAmXVkTUW6dZBD79vU70-20" target="uAmXVkTUW6dZBD79vU70-43" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="599" y="1569" />
@@ -201,11 +201,77 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JU5rvKVwVeTCvCTt9m4v-2" value="&lt;b&gt;@works&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="JU5rvKVwVeTCvCTt9m4v-2" value="&lt;b&gt;@works&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="747" y="357" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JU5rvKVwVeTCvCTt9m4v-3" value="sub_query: &lt;b&gt;@all_works&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="JU5rvKVwVeTCvCTt9m4v-3" value="sub_query: &lt;b&gt;@all_works&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="528" y="1745" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="567PAdTRRMbh6oGiuQLg-1" target="567PAdTRRMbh6oGiuQLg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="567PAdTRRMbh6oGiuQLg-1" target="567PAdTRRMbh6oGiuQLg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-1" value="Tìm tất cả công trường phục vụ cho việc chạy batch&lt;br&gt;&lt;b&gt;@progress_field_settings&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="114" y="-440" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="567PAdTRRMbh6oGiuQLg-2" target="567PAdTRRMbh6oGiuQLg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-2" value="Tìm trong bảng progress_field_settings, với input_end_date và input_start_date NOT NUL và input_end_date + 14 days &amp;gt;= NOW&lt;br&gt;=&amp;gt; &lt;b&gt;@progress_field_settings&lt;/b&gt;&lt;br&gt;SQL sample" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="368.75" y="-560" width="251.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="567PAdTRRMbh6oGiuQLg-5" target="567PAdTRRMbh6oGiuQLg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-5" value="Kiểm tra xem có &lt;b&gt;@field_id&lt;/b&gt; tuyền vào không" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="423.38" y="-460" width="142" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-7" value="Gán lại @progress_field_settings =&lt;br&gt;@progress_field_settings.where(field_id: &lt;b&gt;@field_id&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="354.07" y="-340" width="280.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-9" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="-380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="567PAdTRRMbh6oGiuQLg-16" target="567PAdTRRMbh6oGiuQLg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="567PAdTRRMbh6oGiuQLg-16" target="567PAdTRRMbh6oGiuQLg-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-16" value="Bulk import dữ liệu vào bảng @progress_aggregate_history" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="114" y="-250" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="567PAdTRRMbh6oGiuQLg-19" target="567PAdTRRMbh6oGiuQLg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-19" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;@aggregated_at&lt;/b&gt;&lt;span&gt; = Time.now&lt;/span&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;@user_id&lt;/b&gt;&lt;span style=&quot;font-weight: normal&quot;&gt; = user_id (input)&lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;@field_id&lt;/b&gt;&lt;span style=&quot;font-weight: normal&quot;&gt; = field_id(input)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;@batch_type&lt;span style=&quot;font-weight: normal&quot;&gt; = batch_type(input) - default = 0&lt;/span&gt;&lt;/div&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="69" y="-620" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-21" value="SQL sample, theo @user_id,&amp;nbsp;&lt;b style=&quot;text-align: center&quot;&gt;@progress_field_settings&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="368.75" y="-250" width="226.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="567PAdTRRMbh6oGiuQLg-23" target="567PAdTRRMbh6oGiuQLg-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="567PAdTRRMbh6oGiuQLg-23" target="567PAdTRRMbh6oGiuQLg-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-23" value="&lt;b&gt;@batch_type&lt;/b&gt; = 0 || &lt;b&gt;@batch_type &lt;/b&gt;IS NULL" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="116" y="-130" width="166" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-26" value="RUN ONLY BATCH ALL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="375" y="-110" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-27" value="RUN BOTH BATCH ALL AND DIFF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="111.5" y="40" width="175" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-31" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="286.5" y="-110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="567PAdTRRMbh6oGiuQLg-32" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="188.75" y="-20" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
