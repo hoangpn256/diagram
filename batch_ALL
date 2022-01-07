@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T08:39:22.794Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="oTA0ba7QrcIf2w94R3-3" version="16.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-07T08:41:15.554Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="bt5nDOE8if-HOwxCkdit" version="16.0.3" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Batch ALL">
     <mxGraphModel dx="1614" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="WFbMBUP2ziU1kK5NttpU-4" value="Lấy danh sách &lt;b&gt;@progress_work_type_setting_group&lt;/b&gt; tương ứng của field, phục vụ cho việc group, tính toán" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" parent="567PAdTRRMbh6oGiuQLg-36" vertex="1">
           <mxGeometry x="175.08035495716032" y="941.5417867435159" width="286.2974296205631" height="59.654178674351584" as="geometry" />
+        </mxCell>
+        <mxCell id="ygxaWCv3HxxnlEioHgV8-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="567PAdTRRMbh6oGiuQLg-36" source="WFbMBUP2ziU1kK5NttpU-5" target="uAmXVkTUW6dZBD79vU70-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WFbMBUP2ziU1kK5NttpU-5" value="SELECT *&lt;br&gt;FROM progress_work_type_settings&lt;br&gt;LEFT OUTER JOIN field_main_work_types ON field_main_work_types.id = progress_work_type_settings.field_main_work_type_id&lt;br&gt;LEFT OUTER JOIN field_sub_work_types ON field_sub_work_types.id = progress_work_type_settings.sub_work_type_id&lt;br&gt;WHERE field_main_work_types.field_id = @progress_aggregate_history.field_id&lt;br&gt;AND progress_work_type_settings.deleted_at = &quot;1970/01/01&quot;&lt;br&gt;AND field_main_work_types.deleted_at = &quot;1970/01/01&quot;&lt;br&gt;AND field_sub_work_types.deleted_at = &quot;1970/01/01&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="567PAdTRRMbh6oGiuQLg-36" vertex="1">
           <mxGeometry x="628.4577723378214" y="727.7809798270894" width="432.4388004895961" height="154.10662824207495" as="geometry" />
@@ -56,10 +59,7 @@
           <mxGeometry width="59.8531211750306" height="29.827089337175792" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-8" value="&amp;nbsp;Xử lý group data lấy được từ câu query bằng câu lệnh group_by =&amp;gt;&amp;nbsp;&lt;b&gt;@progress_work_type_setting_group&lt;/b&gt;&lt;br&gt;{ [main_work_type_id, sub_work_type_id] =&amp;gt; item_list_id, ... }" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=left;size=0;" parent="567PAdTRRMbh6oGiuQLg-36" vertex="1">
-          <mxGeometry x="621.4749082007345" y="909.7262247838618" width="367.5979192166463" height="79.53890489913545" as="geometry" />
-        </mxCell>
-        <mxCell id="uAmXVkTUW6dZBD79vU70-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="567PAdTRRMbh6oGiuQLg-36" source="WFbMBUP2ziU1kK5NttpU-5" target="uAmXVkTUW6dZBD79vU70-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="1108.0049082007345" y="759.9962247838617" width="367.5979192166463" height="79.53890489913545" as="geometry" />
         </mxCell>
         <mxCell id="uAmXVkTUW6dZBD79vU70-10" value="&lt;b style=&quot;text-align: left&quot;&gt;@work_filters&lt;/b&gt;&amp;nbsp;có tồn tại hay không" style="rhombus;whiteSpace=wrap;html=1;" parent="567PAdTRRMbh6oGiuQLg-36" vertex="1">
           <mxGeometry x="238.0358629130967" y="1120.5043227665706" width="160.35648714810284" height="99.42363112391931" as="geometry" />
@@ -182,8 +182,7 @@
             <Array as="points">
               <mxPoint x="608" y="1513" />
               <mxPoint x="608" y="1455" />
-              <mxPoint x="1162" y="1455" />
-              <mxPoint x="1162" y="1403" />
+              <mxPoint x="1175" y="1455" />
             </Array>
             <mxPoint x="1175" y="1440" as="targetPoint" />
           </mxGeometry>
