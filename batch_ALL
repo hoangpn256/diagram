@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T08:31:27.696Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="svX4WsjUhvkwcxpgvBGh" version="16.2.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-01-24T08:41:17.730Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="V0naJjZQbl2hOF00Smwp" version="16.2.7" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Batch ALL">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -986,6 +986,39 @@
         </mxCell>
         <mxCell id="KyXT4Y7exIN0bDBusgJ--16" value="cacl_flag :sub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KyXT4Y7exIN0bDBusgJ--1">
           <mxGeometry x="720" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yMfuMc2kFHyr-0NJY9W-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KyXT4Y7exIN0bDBusgJ--1" source="5yMfuMc2kFHyr-0NJY9W-0" target="5yMfuMc2kFHyr-0NJY9W-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eHoIEbXBEZ9mJxl25Jcb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KyXT4Y7exIN0bDBusgJ--1" source="5yMfuMc2kFHyr-0NJY9W-0" target="5yMfuMc2kFHyr-0NJY9W-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yMfuMc2kFHyr-0NJY9W-0" value="Lấy &lt;b&gt;changed_works&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KyXT4Y7exIN0bDBusgJ--1">
+          <mxGeometry x="562.44" y="998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yMfuMc2kFHyr-0NJY9W-1" value="SELECT * FROM work_temps where flag == 0 and date between lastest_aggregate_at and aggredate_at" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KyXT4Y7exIN0bDBusgJ--1">
+          <mxGeometry x="262.44" y="908" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eHoIEbXBEZ9mJxl25Jcb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KyXT4Y7exIN0bDBusgJ--1" source="5yMfuMc2kFHyr-0NJY9W-3" target="eHoIEbXBEZ9mJxl25Jcb-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eHoIEbXBEZ9mJxl25Jcb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KyXT4Y7exIN0bDBusgJ--1" source="5yMfuMc2kFHyr-0NJY9W-3" target="eHoIEbXBEZ9mJxl25Jcb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yMfuMc2kFHyr-0NJY9W-3" value="Lấy &lt;b&gt;progress_work_type_settings&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KyXT4Y7exIN0bDBusgJ--1">
+          <mxGeometry x="532.44" y="1108" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eHoIEbXBEZ9mJxl25Jcb-0" value="SELECT *&lt;br&gt;FROM progress_work_type_settings&lt;br&gt;LEFT OUTER JOIN field_main_work_types ON field_main_work_types.id = progress_work_type_settings.field_main_work_type_id&lt;br&gt;LEFT OUTER JOIN field_sub_work_types ON field_sub_work_types.id = progress_work_type_settings.sub_work_type_id&lt;br&gt;WHERE field_main_work_types.field_id = @progress_aggregate_history.field_id&lt;br&gt;AND progress_work_type_settings.deleted_at = &quot;1970/01/01&quot;&lt;br&gt;AND field_main_work_types.deleted_at = &quot;1970/01/01&quot;&lt;br&gt;AND field_sub_work_types.deleted_at = &quot;1970/01/01&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KyXT4Y7exIN0bDBusgJ--1">
+          <mxGeometry x="49.99777233782149" y="1028.0009798270894" width="432.4388004895961" height="154.10662824207495" as="geometry" />
+        </mxCell>
+        <mxCell id="eHoIEbXBEZ9mJxl25Jcb-3" value="Lấy &lt;b&gt;progress_aggregate_results&lt;/b&gt; theo [work_date][main][sub] lấy từ &lt;b&gt;changed_works_filters&lt;/b&gt; (phục vụ cho việc insert dữ liệu)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KyXT4Y7exIN0bDBusgJ--1">
+          <mxGeometry x="507.44" y="1338" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eHoIEbXBEZ9mJxl25Jcb-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KyXT4Y7exIN0bDBusgJ--1" source="eHoIEbXBEZ9mJxl25Jcb-5" target="eHoIEbXBEZ9mJxl25Jcb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eHoIEbXBEZ9mJxl25Jcb-5" value="Lấy &lt;b&gt;changed_works_filters&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KyXT4Y7exIN0bDBusgJ--1">
+          <mxGeometry x="552.44" y="1228" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
