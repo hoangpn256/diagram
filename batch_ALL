@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T07:40:05.908Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="gQc1e8k3SNwMbpVo1pUN" version="16.5.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-03-11T08:39:43.909Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="wSpgswLlDrGjIR8bichQ" version="16.5.3" type="github" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Batch ALL">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1197,17 +1197,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yy6QKDLrqWyr6tzr2juc" name="Page-9">
-    <mxGraphModel dx="1444" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
         <mxCell id="QO6DEZsLp3Uj3bY03InB-0" />
         <mxCell id="QO6DEZsLp3Uj3bY03InB-1" parent="QO6DEZsLp3Uj3bY03InB-0" />
         <mxCell id="sfsygTBULw4LmqpVUuAS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="QO6DEZsLp3Uj3bY03InB-1" source="sfsygTBULw4LmqpVUuAS-1" target="sfsygTBULw4LmqpVUuAS-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sfsygTBULw4LmqpVUuAS-1" value="Preview API" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
+        <mxCell id="sfsygTBULw4LmqpVUuAS-1" value="Preview API" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
           <mxGeometry x="200" y="55" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sfsygTBULw4LmqpVUuAS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QO6DEZsLp3Uj3bY03InB-1" source="sfsygTBULw4LmqpVUuAS-2" target="sfsygTBULw4LmqpVUuAS-4">
+        <mxCell id="sfsygTBULw4LmqpVUuAS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QO6DEZsLp3Uj3bY03InB-1" source="sfsygTBULw4LmqpVUuAS-2" target="sfsygTBULw4LmqpVUuAS-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sfsygTBULw4LmqpVUuAS-2" value="Tạo bản ghi ở batchjob tương ứng =&amp;gt; status confirm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
@@ -1217,10 +1217,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sfsygTBULw4LmqpVUuAS-4" value="Trigger batch lên SNS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
-          <mxGeometry x="610" y="65" width="120" height="60" as="geometry" />
+          <mxGeometry x="810" y="65" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sfsygTBULw4LmqpVUuAS-6" value="Return status success" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
-          <mxGeometry x="810" y="55" width="120" height="80" as="geometry" />
+        <mxCell id="sfsygTBULw4LmqpVUuAS-6" value="Return status success + key excel + batch_jobs.id" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
+          <mxGeometry x="1010" y="55" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sfsygTBULw4LmqpVUuAS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QO6DEZsLp3Uj3bY03InB-1" source="sfsygTBULw4LmqpVUuAS-8" target="sfsygTBULw4LmqpVUuAS-10">
           <mxGeometry relative="1" as="geometry">
@@ -1255,7 +1255,7 @@
         <mxCell id="sfsygTBULw4LmqpVUuAS-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QO6DEZsLp3Uj3bY03InB-1" source="sfsygTBULw4LmqpVUuAS-10" target="sfsygTBULw4LmqpVUuAS-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sfsygTBULw4LmqpVUuAS-10" value="HTTP pooling API/check status" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
+        <mxCell id="sfsygTBULw4LmqpVUuAS-10" value="HTTP pooling API/check status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
           <mxGeometry x="200" y="170" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sfsygTBULw4LmqpVUuAS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QO6DEZsLp3Uj3bY03InB-1" source="sfsygTBULw4LmqpVUuAS-11" target="sfsygTBULw4LmqpVUuAS-13">
@@ -1276,7 +1276,7 @@
         <mxCell id="sfsygTBULw4LmqpVUuAS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QO6DEZsLp3Uj3bY03InB-1" source="sfsygTBULw4LmqpVUuAS-26" target="sfsygTBULw4LmqpVUuAS-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sfsygTBULw4LmqpVUuAS-26" value="Get data preview API" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
+        <mxCell id="sfsygTBULw4LmqpVUuAS-26" value="Get data preview API" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
           <mxGeometry x="200" y="300" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sfsygTBULw4LmqpVUuAS-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QO6DEZsLp3Uj3bY03InB-1" source="sfsygTBULw4LmqpVUuAS-28" target="sfsygTBULw4LmqpVUuAS-30">
@@ -1297,7 +1297,7 @@
         <mxCell id="sfsygTBULw4LmqpVUuAS-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QO6DEZsLp3Uj3bY03InB-1" source="sfsygTBULw4LmqpVUuAS-35" target="sfsygTBULw4LmqpVUuAS-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sfsygTBULw4LmqpVUuAS-35" value="Update API" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
+        <mxCell id="sfsygTBULw4LmqpVUuAS-35" value="Update API" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
           <mxGeometry x="200" y="430" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sfsygTBULw4LmqpVUuAS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QO6DEZsLp3Uj3bY03InB-1" source="sfsygTBULw4LmqpVUuAS-37" target="sfsygTBULw4LmqpVUuAS-39">
@@ -1335,6 +1335,15 @@
         </mxCell>
         <mxCell id="sfsygTBULw4LmqpVUuAS-56" value="excel file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
           <mxGeometry x="120" y="65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sfsygTBULw4LmqpVUuAS-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="QO6DEZsLp3Uj3bY03InB-1" source="sfsygTBULw4LmqpVUuAS-57" target="sfsygTBULw4LmqpVUuAS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sfsygTBULw4LmqpVUuAS-57" value="Upload excel lên AWS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
+          <mxGeometry x="600" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sfsygTBULw4LmqpVUuAS-59" value="batch_jobs.id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QO6DEZsLp3Uj3bY03InB-1">
+          <mxGeometry x="120" y="180" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
