@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T07:45:00.823Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="28CI_QpwskSZKEQ0ItJX" version="18.0.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-18T07:46:02.424Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="ibnamIytBeEYQl8YyPLI" version="18.0.3" type="github" pages="8">
   <diagram id="FRml3sk5jPOYkEMEwbq5" name="A-100-2">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,6 +213,9 @@
         <mxCell id="-joTPCIZqcLlzFa5Z7PW-2" value="Private API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="45" y="270" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="C0r5tOkmLN4b1r4lt2Bc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-joTPCIZqcLlzFa5Z7PW-4" target="C0r5tOkmLN4b1r4lt2Bc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-joTPCIZqcLlzFa5Z7PW-4" value="Màn hình box công trường" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="520" width="120" height="60" as="geometry" />
         </mxCell>
@@ -254,6 +257,9 @@
         </mxCell>
         <mxCell id="-joTPCIZqcLlzFa5Z7PW-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;標準API利用フラグ/Flag sử dụng API tiêu chuẩn&lt;br&gt;&amp;nbsp;ccus_fields -&amp;gt; api_use_flg&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="585" y="360" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C0r5tOkmLN4b1r4lt2Bc-1" value="Về chuyển đổi liên kết tự động trên màn hình sẽ kết hợp với chức năng active liên kết để thay đổi  sang màn hình 現場詳細・編集/chi tiết-edit công trường" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="530" width="550" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
