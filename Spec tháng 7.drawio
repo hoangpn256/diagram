@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T07:50:23.758Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="vV2XC5-6tQCmtaNzbjBV" version="18.0.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-18T07:50:42.696Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="9iCxrW3lTK5ggARVQFhA" version="18.0.3" type="github" pages="8">
   <diagram id="FRml3sk5jPOYkEMEwbq5" name="A-100-2">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,9 +118,6 @@
         </mxCell>
         <mxCell id="TG4D0OEDfQDXOAZvTOnK-8" value="Đối ứng version&lt;br&gt;Vì API cũ chưa có version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="340" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Nl9cHdieHlAC0jtKn1gY-1" value="Toàn bộ chỉnh sửa chức năng hiện có" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="210" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
