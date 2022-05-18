@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T07:46:02.424Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="ibnamIytBeEYQl8YyPLI" version="18.0.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-18T07:46:56.238Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="8MPFO6Mh4Jd8uyj-rfCR" version="18.0.3" type="github" pages="8">
   <diagram id="FRml3sk5jPOYkEMEwbq5" name="A-100-2">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,8 +210,11 @@
         <mxCell id="-joTPCIZqcLlzFa5Z7PW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-joTPCIZqcLlzFa5Z7PW-2" target="-joTPCIZqcLlzFa5Z7PW-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="C0r5tOkmLN4b1r4lt2Bc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-joTPCIZqcLlzFa5Z7PW-2" target="C0r5tOkmLN4b1r4lt2Bc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-joTPCIZqcLlzFa5Z7PW-2" value="Private API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="45" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="45" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C0r5tOkmLN4b1r4lt2Bc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-joTPCIZqcLlzFa5Z7PW-4" target="C0r5tOkmLN4b1r4lt2Bc-1">
           <mxGeometry relative="1" as="geometry" />
@@ -260,6 +263,15 @@
         </mxCell>
         <mxCell id="C0r5tOkmLN4b1r4lt2Bc-1" value="Về chuyển đổi liên kết tự động trên màn hình sẽ kết hợp với chức năng active liên kết để thay đổi  sang màn hình 現場詳細・編集/chi tiết-edit công trường" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="530" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C0r5tOkmLN4b1r4lt2Bc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C0r5tOkmLN4b1r4lt2Bc-3" target="C0r5tOkmLN4b1r4lt2Bc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C0r5tOkmLN4b1r4lt2Bc-3" value="API external liên quan tới công trường" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C0r5tOkmLN4b1r4lt2Bc-5" value="Không đối ứng" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="635" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
