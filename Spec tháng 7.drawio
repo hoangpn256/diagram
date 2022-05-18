@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T07:43:06.575Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="LLmj6PkenJUlRJPkpdr1" version="18.0.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-18T07:43:58.758Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="BrIxA-q5n_BYyJhKr49L" version="18.0.3" type="github" pages="8">
   <diagram id="FRml3sk5jPOYkEMEwbq5" name="A-100-2">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -360,8 +360,14 @@
         <mxCell id="ml1a62rB2FhbDV01TJEu-6" value="Màn hình 会社情報/thông tin công ty &amp;gt; Tab CCUS連携情報/thông tin liên kết CCUS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="350" width="240" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Xds3AgYNDtgFCF8s7Ewq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-7" target="Xds3AgYNDtgFCF8s7Ewq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ml1a62rB2FhbDV01TJEu-7" value="Chưa xác nhận ccus thành công" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="845" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xds3AgYNDtgFCF8s7Ewq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-8" target="Xds3AgYNDtgFCF8s7Ewq-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ml1a62rB2FhbDV01TJEu-8" value="id doanh nghiệp != với id doanh nghiệp được nhập" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="845" y="80" width="285" height="60" as="geometry" />
@@ -380,6 +386,9 @@
         </mxCell>
         <mxCell id="ml1a62rB2FhbDV01TJEu-10" value="Không thể lưu thành công" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xds3AgYNDtgFCF8s7Ewq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-14" target="Xds3AgYNDtgFCF8s7Ewq-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ml1a62rB2FhbDV01TJEu-14" value="Hiển thị&lt;br&gt;- tên doanh nghiệp&lt;br&gt;- id doanh nghiệp&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="845" y="170" width="120" height="60" as="geometry" />
@@ -434,6 +443,9 @@
         </mxCell>
         <mxCell id="Xds3AgYNDtgFCF8s7Ewq-9" value="Trường hợp là công ty hợp tác&#xa;├Không có công nhân nào đang thực hiện liên kết Kỹ thuật viên CCUS trong nội bộ công ty mình&#xa;├Không thực hiện liên kết hệ thống xây dựng&#xa;└Tại công nhân của công ty mình không có công nhân nào đang gửi lịch sử đi làm(就業履歴)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="405" width="550" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Xds3AgYNDtgFCF8s7Ewq-11" value="Kiểm tra lại API CONNECT CCUS có trả về thông tin tương ứng hay không ???" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="80" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
