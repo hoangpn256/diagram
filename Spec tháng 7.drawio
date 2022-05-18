@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T06:06:10.239Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="yC_Gw33cV_75XLXdUHX2" version="18.0.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-18T06:19:09.429Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="jZj7Nl8D0cbOdy69ZM_9" version="18.0.3" type="github" pages="8">
   <diagram id="FRml3sk5jPOYkEMEwbq5" name="A-100-2">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -258,6 +258,83 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="Pspd91hh6VSS9Hg_wR-T" name="Grp.4-6">
+    <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oHumwKbZImQyzXZ-JbAJ-2" target="oHumwKbZImQyzXZ-JbAJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oHumwKbZImQyzXZ-JbAJ-2" target="oHumwKbZImQyzXZ-JbAJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oHumwKbZImQyzXZ-JbAJ-2" target="oHumwKbZImQyzXZ-JbAJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oHumwKbZImQyzXZ-JbAJ-2" target="oHumwKbZImQyzXZ-JbAJ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oHumwKbZImQyzXZ-JbAJ-2" target="oHumwKbZImQyzXZ-JbAJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-2" value="Private API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oHumwKbZImQyzXZ-JbAJ-4" target="oHumwKbZImQyzXZ-JbAJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-4" value="Import worker&lt;br&gt;Skilled_worker_controllers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oHumwKbZImQyzXZ-JbAJ-5" target="oHumwKbZImQyzXZ-JbAJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-5" value="Xử lý có thể lưu thứ tự sắp xếp cho worker_jobs theo thứ tự từ 1 -&amp;gt; 10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oHumwKbZImQyzXZ-JbAJ-6" target="oHumwKbZImQyzXZ-JbAJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-6" value="Màn hình edit worker, tab&amp;nbsp;&lt;span style=&quot;color: rgb(68, 68, 68); font-family: Calibri, sans-serif, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;職種・免許・資格&lt;br&gt;phần worker_jobs&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-8" value="Xử lý để có thể sắp xếp được worker_jobs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-10" value="Đối ứng toàn bộ các version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oHumwKbZImQyzXZ-JbAJ-12" target="oHumwKbZImQyzXZ-JbAJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-12" value="Export worker&lt;br&gt;Skilled_export_controllers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-13" value="export theo thứ tự worker_jobs đã đc lưu trong database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oHumwKbZImQyzXZ-JbAJ-17" target="oHumwKbZImQyzXZ-JbAJ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-17" value="Greenfile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="414" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-18" value="Cần nhờ bên GF đối ứng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="414" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oHumwKbZImQyzXZ-JbAJ-21" target="oHumwKbZImQyzXZ-JbAJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-21" value="&lt;span style=&quot;color: rgb(68, 68, 68); font-family: Calibri, sans-serif, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dialog 職種・立場登録&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-22" value="Xử lý để nghề nghiệp đầu tiên được chọn khi khởi tạo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="74YYIZsGE9PAyMxt2vZo" name="B-273">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -267,14 +344,6 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Op0K0opiPvNHEt2nSP7W" name="A-421">
-    <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="Pspd91hh6VSS9Hg_wR-T" name="Grp.4-6">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
