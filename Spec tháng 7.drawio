@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T07:54:56.291Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="0d9KVBjJvsFKHKomItpr" version="18.0.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-18T09:37:01.416Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="yzAHSd_-kMhrnanhklR0" version="18.0.3" type="github" pages="8">
   <diagram id="FRml3sk5jPOYkEMEwbq5" name="A-100-2">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -490,33 +490,36 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Op0K0opiPvNHEt2nSP7W" name="A-421">
-    <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1372" dy="1632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="n8BFSf-8T276mwzlbn77-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rFUuhhnkpB3aqHiLiKMi-1" target="n8BFSf-8T276mwzlbn77-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rFUuhhnkpB3aqHiLiKMi-1" value="Private API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rFUuhhnkpB3aqHiLiKMi-2" value="Toàn bộ chỉnh sửa chức năng hiện có" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="280" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="n8BFSf-8T276mwzlbn77-1" value="Màn hình ảnh hưởng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="220" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="n8BFSf-8T276mwzlbn77-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-2" target="n8BFSf-8T276mwzlbn77-3">
+        <mxCell id="n8BFSf-8T276mwzlbn77-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rFUuhhnkpB3aqHiLiKMi-1" target="n8BFSf-8T276mwzlbn77-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n8BFSf-8T276mwzlbn77-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-2" target="n8BFSf-8T276mwzlbn77-5">
+        <mxCell id="rFUuhhnkpB3aqHiLiKMi-1" value="Private API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="399" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFUuhhnkpB3aqHiLiKMi-2" value="Toàn bộ chỉnh sửa chức năng hiện có" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="369" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-2" target="n8BFSf-8T276mwzlbn77-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-2" target="n8BFSf-8T276mwzlbn77-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-2" target="n8BFSf-8T276mwzlbn77-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n8BFSf-8T276mwzlbn77-2" value="Chức năng chính xử lý thêm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="400" width="110" height="60" as="geometry" />
+          <mxGeometry x="250" y="768" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n8BFSf-8T276mwzlbn77-3" value="Chuyển đổi export csv =&amp;gt; excel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="415" y="340" width="170" height="56" as="geometry" />
+          <mxGeometry x="455" y="660" width="170" height="56" as="geometry" />
         </mxCell>
         <mxCell id="n8BFSf-8T276mwzlbn77-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-5" target="n8BFSf-8T276mwzlbn77-7">
           <mxGeometry relative="1" as="geometry" />
@@ -528,10 +531,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n8BFSf-8T276mwzlbn77-5" value="Thêm chức năng import excel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="415" y="450" width="170" height="56" as="geometry" />
+          <mxGeometry x="455" y="770" width="170" height="56" as="geometry" />
         </mxCell>
         <mxCell id="n8BFSf-8T276mwzlbn77-7" value="Có màn hình preview dữ liệu như import worker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="380" width="170" height="56" as="geometry" />
+          <mxGeometry x="700" y="700" width="170" height="56" as="geometry" />
         </mxCell>
         <mxCell id="n8BFSf-8T276mwzlbn77-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-9" target="n8BFSf-8T276mwzlbn77-13">
           <mxGeometry relative="1" as="geometry" />
@@ -540,16 +543,88 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n8BFSf-8T276mwzlbn77-9" value="Có chức năng import excel&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="450" width="170" height="56" as="geometry" />
+          <mxGeometry x="700" y="770" width="170" height="56" as="geometry" />
         </mxCell>
         <mxCell id="n8BFSf-8T276mwzlbn77-10" value="Có yêu cầu về performance (300 records)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="524" width="170" height="56" as="geometry" />
+          <mxGeometry x="700" y="844" width="170" height="56" as="geometry" />
         </mxCell>
         <mxCell id="n8BFSf-8T276mwzlbn77-13" value="Chỉ insert vào database&lt;br&gt;Không có update bản ghi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="404" width="170" height="56" as="geometry" />
+          <mxGeometry x="950" y="724" width="170" height="56" as="geometry" />
         </mxCell>
         <mxCell id="n8BFSf-8T276mwzlbn77-15" value="Validate tương ứng với từng màn hình ảnh hưởng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="490" width="170" height="56" as="geometry" />
+          <mxGeometry x="950" y="810" width="170" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-18" target="n8BFSf-8T276mwzlbn77-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-18" target="n8BFSf-8T276mwzlbn77-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-18" target="n8BFSf-8T276mwzlbn77-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-18" value="Màn hình ảnh hưởng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-20" target="n8BFSf-8T276mwzlbn77-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-20" value="&lt;span style=&quot;color: rgb(68, 68, 68); font-family: Calibri, sans-serif, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;1.ゲート一覧/List gate&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="-248" width="170" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-21" target="n8BFSf-8T276mwzlbn77-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-21" value="&lt;span style=&quot;color: rgb(68, 68, 68); font-family: Calibri, sans-serif, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;2.揚重機一覧/List máy nâng&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="92" width="170" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-22" target="n8BFSf-8T276mwzlbn77-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-22" value="&lt;span style=&quot;color: rgb(68, 68, 68); font-family: Calibri, sans-serif, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;3.機材一覧/List thiết bị&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="480" width="170" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-26" value="Có thêm version tương ứng với file excel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="880" width="170" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-32" target="n8BFSf-8T276mwzlbn77-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-32" value="Thuần dữ liệu tĩnh, chỉ validate tương ứng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-248" width="170" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-34" target="n8BFSf-8T276mwzlbn77-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-34" target="n8BFSf-8T276mwzlbn77-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-34" value="Có dữ liệu động, chú ý tới phần CO2 flag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="92" width="170" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-35" value="Khi import, trường hợp có record không đúng theo quy tắc input dưới đây thì coi là error&#xa;├ステータス/Status：使用中/đang sử dụng or 未使用/chưa sử dụng：必須/Bắt buộc&#xa;├ゲート名/Tên gate：Max 127 ký tự：bắt buộc&#xa;├ゲート幅/gate width：Max 8 ký tự：bắt buộc&#xa;├デート高さ/Gate hieght：Max 8 ký tự：bắt buộc&#xa;└備考/Note：Max 500 ký tự：tùy ý" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-270" width="490" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-37" target="n8BFSf-8T276mwzlbn77-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8BFSf-8T276mwzlbn77-37" target="n8BFSf-8T276mwzlbn77-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-37" value="Có dữ liệu động, chú ý tới phần CO2 flag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="480" width="170" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-40" value="●揚重機情報/Thông tin máy nâng&#xa;├ステータス/Status：使用中/đang sử dụng or 未使用/Chưa sửa：Bắt buộc&#xa;├クレーン種別/Phân loại crane：Một trong các mục bên dưới：Bắt buộc&#xa;│├タワークレーン&#xa;│├クローラクレーン&#xa;│├ラフテレーンクレーン&#xa;│├エレベータ&#xa;│├積載型トラックレーン&#xa;│└作業船&#xa;├揚重機名/Tên máy nâng：Max 255 ký tự：Bắt buộc&#xa;├性能/Tính năng：Max 127 ký tự：Bắt buộc&#xa;├管理会社/Công ty quản lý：Max 255 ký tự：bắt buộc&#xa;├キープラン/Key plan：Key plan đã được đăng ký ở công trường: Tùy ý&#xa;└備考/Note：Max 500 ký tự：Tùy ý" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-80" width="430" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-42" value="●Thông tin C02 (Công trường đang sử dụng CO2 là bắt buôc, công trường không sử dụng thì không đăng ký)&#xa;├保有区分/Phân loại lưu giữ：協力会社持込/Mang vào công ty hợp tác or 元請支給/Hỗ trợ nhà thầu chính：Bắt buộc&#xa;├機械分類/Phân loại máy（中/Vừa）：その他/Khác or 会社登録内容/Nội dung đăng ký công ty：Bắt buộc&#xa;├機械分類/Phân loại máy（小/nhỏ）：その他/Khác or 会社登録内容/Nội dung đăng ký công ty：必須/Bắt buộc（Trường hợp mà その他(Khác) được chọn ở phân loại 中/Vừa thì sẽ không bắt buộc, và cũng không đăng ký）&#xa;├仕様分類/Phân loại spec：その他(Khác) or 会社登録内容/Nội dung đăng ký công ty：Bắt buộc（Trường hợp その他(Khác) được chọn ở phân loại 小/Nhỏ, thì sẽ không bắt buộc và cũng không đăng ký）&#xa;└その他(Khác)：Max 12 ký tự：bắt buộc（Trường hợp chọn 「その他/khác」ở một trong các 小分類/Phân loại nhỏ, 中分類/Phân loại vừa, 仕様分類/Phân loại spec thì sẽ bắt buộc, nếu không chọn thì không bắt buộc và cũng không đăng ký）" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="148" width="1500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-46" value="●Thông tin thiết bị&#xa;├ステータス/Status：使用中/đang sử dụng or 未使用/chưa sử dụng：必須/Bắt buộc&#xa;├管理No/Mã quản lý：Số max 19 digit：bắt buộc&#xa;├機材No/Mã thiết bị：Số max 31 digit：bắt buộc&#xa;├機材種別/Phân loại thiết bị：Một trong các mục dưới đây：bắt buộc&#xa;│├車輌系建設機械&#xa;│├フォークリフト&#xa;│├高所作業車&#xa;│├作業船&#xa;│└その他&#xa;├機材名/Tên thiết bị：Max 16 ký tự：bắt buộc&#xa;├性能/Tính năng・作業床高さ/Chiều cao giàn gỗ：Max 16 ký tự：Tùy ý&#xa;├性能/Tính năng・積載荷重/Tải trọng di chuyển：Max 16 ký tự：Tùy ý&#xa;├管理会社/Công ty quản lý：Công ty đã đăng ký trên hệ thống xây dựng：Bắt buộc&#xa;├キープラン/Key plan：Key plan đã đăng ký ở công trường：Tùy ý&#xa;└備考/Note：Max 500 ký tự：tùy ý" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="280" width="470" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n8BFSf-8T276mwzlbn77-48" value="●Thông tin CO2（Công trường đang dùng CO2 thì bắt buộc, công trường không sử dụng thì không đăng ký）&#xa;├保有区分/Phân loại lưu giữ：協力会社持込/Mang vào công ty hợp tác or 元請支給/Hỗ trọ nhà thầu chính：必須/bắt buộc&#xa;├機械分類（中）/Phân loại máy（中/Vừa）：その他/Khác or 会社登録内容/Nội dung đăng ký công ty：Bắt buộc&#xa;├機械分類/Phân loại máy（小/nhỏ）：その他/Khác or 会社登録内容/Nội dung đăng ký công ty：必須/Bắt buộc（Trường hợp mà その他(Khác) được chọn ở phân loại 中/Vừa thì sẽ không bắt buộc, và cũng không đăng ký）&#xa;├仕様分類/Phân loại spec：その他(Khác) or 会社登録内容/Nội dung đăng ký công ty：Bắt buộc（Trường hợp その他(Khác) được chọn ở phân loại 小/Nhỏ, thì sẽ không bắt buộc và cũng không đăng ký）&#xa;└その他(Khác)：Max 12 ký tự：bắt buộc（Trường hợp chọn 「その他/khác」ở một trong các 小分類/Phân loại nhỏ, 中分類/Phân loại vừa, 仕様分類/Phân loại spec thì sẽ bắt buộc, nếu không chọn thì không bắt buộc và cũng không đăng ký）" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="550" width="1300" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
