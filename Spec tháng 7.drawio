@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T06:19:25.088Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="9KiOLCzOYvg3sv-oiB0e" version="18.0.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-18T06:33:11.918Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="qQg5k-Utv0AkEuvsJMyN" version="18.0.3" type="github" pages="8">
   <diagram id="FRml3sk5jPOYkEMEwbq5" name="A-100-2">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -336,10 +336,75 @@
     </mxGraphModel>
   </diagram>
   <diagram id="74YYIZsGE9PAyMxt2vZo" name="B-273">
-    <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1372" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ml1a62rB2FhbDV01TJEu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-2" target="ml1a62rB2FhbDV01TJEu-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-2" value="Private API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-6" target="ml1a62rB2FhbDV01TJEu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-6" target="ml1a62rB2FhbDV01TJEu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-6" target="ml1a62rB2FhbDV01TJEu-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-6" value="Màn hình 会社情報/thông tin công ty &amp;gt; Tab CCUS連携情報/thông tin liên kết CCUS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-7" value="Chưa xác nhận ccus thành công" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-8" value="id doanh nghiệp != với id doanh nghiệp được nhập" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-9" target="ml1a62rB2FhbDV01TJEu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-9" value="Sau khi xác nhận kết nối thành công" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-10" target="ml1a62rB2FhbDV01TJEu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-10" target="ml1a62rB2FhbDV01TJEu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-10" value="Không thể lưu thành công" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-14" value="Hiển thị&lt;br&gt;- tên doanh nghiệp&lt;br&gt;- id doanh nghiệp&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-17" target="ml1a62rB2FhbDV01TJEu-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-17" target="ml1a62rB2FhbDV01TJEu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-17" value="01" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-21" value="02" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="365" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ml1a62rB2FhbDV01TJEu-23" target="ml1a62rB2FhbDV01TJEu-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-23" value="03" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1a62rB2FhbDV01TJEu-25" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14.6667px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Sau khi cân nhắc yêu cầu chức năng 1 và 2, sẽ xem xét lại UI liên quan đến nhập thông tin cơ bản CCUS.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="545" width="250" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
