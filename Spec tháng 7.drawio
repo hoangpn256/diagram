@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T07:43:58.758Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="BrIxA-q5n_BYyJhKr49L" version="18.0.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-18T07:45:00.823Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="28CI_QpwskSZKEQ0ItJX" version="18.0.3" type="github" pages="8">
   <diagram id="FRml3sk5jPOYkEMEwbq5" name="A-100-2">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -326,11 +326,11 @@
         <mxCell id="oHumwKbZImQyzXZ-JbAJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oHumwKbZImQyzXZ-JbAJ-21" target="oHumwKbZImQyzXZ-JbAJ-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oHumwKbZImQyzXZ-JbAJ-21" value="&lt;span style=&quot;color: rgb(68, 68, 68); font-family: Calibri, sans-serif, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dialog 職種・立場登録&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="520" width="150" height="60" as="geometry" />
+        <mxCell id="oHumwKbZImQyzXZ-JbAJ-21" value="&lt;span style=&quot;color: rgb(68, 68, 68); font-family: Calibri, sans-serif, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;, &amp;quot;Yu Gothic&amp;quot;; font-size: 14.6667px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dialog 職種・立場登録&lt;br&gt;Màn hình thêm worker -&amp;gt; box công ty hợp tác&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="oHumwKbZImQyzXZ-JbAJ-22" value="Xử lý để nghề nghiệp đầu tiên được chọn khi khởi tạo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="520" width="150" height="60" as="geometry" />
+          <mxGeometry x="440" y="535" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
