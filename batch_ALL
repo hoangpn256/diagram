@@ -1,62 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T10:26:07.621Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="4qVq9xlAFME5kxPZ84B4" version="18.0.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-05-19T11:03:39.180Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="oJ9DSnv8SrXyTHeJ1Oa8" version="18.0.0" type="github" pages="11">
   <diagram id="qCwDrTf3kC02eRBuznIH" name="[T3] Flow batch">
-    <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="z1PTX63bqXyoSalyFg7d-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1PTX63bqXyoSalyFg7d-1" target="z1PTX63bqXyoSalyFg7d-2">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z1PTX63bqXyoSalyFg7d-1" target="z1PTX63bqXyoSalyFg7d-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1PTX63bqXyoSalyFg7d-1" target="z1PTX63bqXyoSalyFg7d-4">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z1PTX63bqXyoSalyFg7d-1" target="z1PTX63bqXyoSalyFg7d-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-1" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-1" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1PTX63bqXyoSalyFg7d-2" target="z1PTX63bqXyoSalyFg7d-7">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z1PTX63bqXyoSalyFg7d-2" target="z1PTX63bqXyoSalyFg7d-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-2" value="ONLY BATCH ALL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-2" value="ONLY BATCH ALL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1PTX63bqXyoSalyFg7d-4" target="z1PTX63bqXyoSalyFg7d-15">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z1PTX63bqXyoSalyFg7d-4" target="z1PTX63bqXyoSalyFg7d-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-4" value="BOTCH Batch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-4" value="BOTCH Batch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1PTX63bqXyoSalyFg7d-7" target="z1PTX63bqXyoSalyFg7d-11">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z1PTX63bqXyoSalyFg7d-7" target="z1PTX63bqXyoSalyFg7d-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-7" value="Force chạy lại batch ALL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-7" value="Force chạy lại batch ALL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-9" value="Flow cũ =&amp;gt; không vấn đề gì" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-9" value="Flow cũ =&amp;gt; không vấn đề gì" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="395" y="130" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1PTX63bqXyoSalyFg7d-11" target="z1PTX63bqXyoSalyFg7d-13">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z1PTX63bqXyoSalyFg7d-11" target="z1PTX63bqXyoSalyFg7d-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-11" value="Batch::ALL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="z1PTX63bqXyoSalyFg7d-11" value="Batch::ALL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="170" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-13" value="&lt;h1&gt;Chú ý&lt;/h1&gt;&lt;p&gt;1. Thêm phần xử lý cho batch_jobs&lt;/p&gt;&lt;p&gt;2. Có một vài phần coding dư thừa về style =&amp;gt; Cần chỉnh sửa&lt;/p&gt;&lt;p&gt;=&amp;gt; Nhìn chung logic không vấn đề gì&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="799" y="140" width="370" height="120" as="geometry" />
+        <mxCell id="z1PTX63bqXyoSalyFg7d-13" value="&lt;h1&gt;Chú ý&lt;/h1&gt;&lt;p&gt;1. Thêm phần xử lý cho batch_jobs&lt;/p&gt;&lt;p&gt;2. Có một vài phần coding dư thừa về style =&amp;gt; Cần chỉnh sửa&lt;/p&gt;&lt;p&gt;=&amp;gt; Nhìn chung logic không vấn đề gì&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="770" y="140" width="370" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="z1PTX63bqXyoSalyFg7d-15" target="z1PTX63bqXyoSalyFg7d-17">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="z1PTX63bqXyoSalyFg7d-15" target="z1PTX63bqXyoSalyFg7d-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-15" value="batch_jobs&lt;br&gt;batches" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z1PTX63bqXyoSalyFg7d-15" value="batch_jobs&lt;br&gt;batches" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z1PTX63bqXyoSalyFg7d-17" value="Xử lý lấy field_ids chạy batch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="H8UVCV-emLZ5qXkUvtzC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1PTX63bqXyoSalyFg7d-17" target="H8UVCV-emLZ5qXkUvtzC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1PTX63bqXyoSalyFg7d-17" target="H8UVCV-emLZ5qXkUvtzC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z1PTX63bqXyoSalyFg7d-17" value="Xử lý lấy field_ids(1) chạy batch theo progress_field_settings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="560" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H8UVCV-emLZ5qXkUvtzC-1" target="H8UVCV-emLZ5qXkUvtzC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H8UVCV-emLZ5qXkUvtzC-1" value="Get all_works field_ids(1)&lt;br&gt;Get field_ids(2) có works thay đổi từ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="770" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H8UVCV-emLZ5qXkUvtzC-3" value="Bug1: Query hiện tại đang lấy works theo history chạy gần nhất =&amp;gt; đến thời điểm chạy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="450" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H8UVCV-emLZ5qXkUvtzC-4" value="Vấn đề ở logic lấy ra field_ids =&amp;gt; đang lấy groups theo field_id =&amp;gt; progress_setting&lt;br&gt;Sau đó xử lý ở dưới =&amp;gt; Cách đặt tên rất khó hiểu" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="460" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-4" value="Cần refactoring về coding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-5" value="Phát sinh bug" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="_ILvuDlCsghR4p4DLs_p" name="B289 flow admin">
-    <mxGraphModel dx="3708" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="3522" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="T7XIgcGGt-_lKm9ebYKq-0" />
         <mxCell id="T7XIgcGGt-_lKm9ebYKq-1" parent="T7XIgcGGt-_lKm9ebYKq-0" />
@@ -900,7 +924,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1vLqcknvX-34HEY4nWMS" name="ONLY DIFF">
-    <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="Y1YA_CgOly7EXAXlO_jH-0" />
         <mxCell id="Y1YA_CgOly7EXAXlO_jH-1" parent="Y1YA_CgOly7EXAXlO_jH-0" />
