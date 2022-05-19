@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T11:20:58.239Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="u-5X4wdYnbDk9g9UgbA-" version="18.0.0" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-05-19T11:25:46.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="P6CjmXUbe3dj4V-1jE_b" version="18.0.0" type="github" pages="11">
   <diagram id="qCwDrTf3kC02eRBuznIH" name="[T3] Flow batch">
-    <mxGraphModel dx="988" dy="1403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1031" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,6 +55,9 @@
         <mxCell id="-hZnS3dMEDEPs46StDpL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1PTX63bqXyoSalyFg7d-17" target="H8UVCV-emLZ5qXkUvtzC-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z1PTX63bqXyoSalyFg7d-17" target="-hZnS3dMEDEPs46StDpL-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="z1PTX63bqXyoSalyFg7d-17" value="Xử lý lấy field_ids(1) chạy batch theo progress_field_settings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="560" y="340" width="150" height="60" as="geometry" />
         </mxCell>
@@ -64,14 +67,17 @@
         <mxCell id="-hZnS3dMEDEPs46StDpL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H8UVCV-emLZ5qXkUvtzC-1" target="-hZnS3dMEDEPs46StDpL-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H8UVCV-emLZ5qXkUvtzC-1" target="-hZnS3dMEDEPs46StDpL-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H8UVCV-emLZ5qXkUvtzC-1" value="Get all_works field_ids(1)&lt;br&gt;Get field_ids(2) có works thay đổi từ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="770" y="340" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H8UVCV-emLZ5qXkUvtzC-3" value="Bug1: Query hiện tại đang lấy works theo history chạy gần nhất =&amp;gt; đến thời điểm chạy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="740" y="460" width="170" height="50" as="geometry" />
+          <mxGeometry x="650" y="460" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="H8UVCV-emLZ5qXkUvtzC-4" value="Vấn đề ở logic lấy ra field_ids =&amp;gt; đang lấy groups theo field_id =&amp;gt; progress_setting&lt;br&gt;Sau đó xử lý ở dưới =&amp;gt; Cách đặt tên rất khó hiểu" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="460" width="170" height="80" as="geometry" />
+          <mxGeometry x="450" y="460" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-4" value="Cần refactoring về coding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="20" y="-110" width="100" height="30" as="geometry" />
@@ -85,11 +91,14 @@
         <mxCell id="-hZnS3dMEDEPs46StDpL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-6" target="-hZnS3dMEDEPs46StDpL-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-6" target="-hZnS3dMEDEPs46StDpL-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-6" value="Query main_other, sub_other" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-8" value="Nhằm mục đích xét other flag cho all_works data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="940" y="475" width="140" height="30" as="geometry" />
+          <mxGeometry x="900" y="475" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-12" target="-hZnS3dMEDEPs46StDpL-15">
           <mxGeometry relative="1" as="geometry" />
@@ -97,11 +106,14 @@
         <mxCell id="-hZnS3dMEDEPs46StDpL-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-12" target="-hZnS3dMEDEPs46StDpL-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-12" target="-hZnS3dMEDEPs46StDpL-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-12" value="Query progress_work&lt;br&gt;_type_settings&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1180" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-15" value="Group theo [main,sub] =&amp;gt; để lấy ra work tương ứng với từng place_item_id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="475" width="140" height="45" as="geometry" />
+          <mxGeometry x="1090" y="460" width="140" height="45" as="geometry" />
         </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-17" target="-hZnS3dMEDEPs46StDpL-18">
           <mxGeometry relative="1" as="geometry" />
@@ -112,11 +124,14 @@
         <mxCell id="-hZnS3dMEDEPs46StDpL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-17" target="-hZnS3dMEDEPs46StDpL-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-17" target="-hZnS3dMEDEPs46StDpL-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-17" value="Query progress_aggregated_works&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1360" y="340" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-hZnS3dMEDEPs46StDpL-18" value="Nhằm mục đích xử lý các work có sự thay đổi =&amp;gt; phục vụ riêng cho batch_diff" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="475" width="140" height="55" as="geometry" />
+        <mxCell id="-hZnS3dMEDEPs46StDpL-18" value="Nhằm mục đích xử lý các work có sự thay đổi =&amp;gt; phục vụ riêng cho batch_diff" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="450" width="140" height="55" as="geometry" />
         </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-20" value="1. Do số lượng works có thể rất lớn&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Việc viết query đang dùng pluck =&amp;gt; SQL sẽ generate ra &lt;b&gt;câu lệnh IN (1,2,3, ..)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Từ (1) (2) =&amp;gt; &lt;b&gt;Chắc chắn sẽ phát sinh ra lỗi&lt;/b&gt;, nếu số lượng works đủ lớn (tuỳ thuộc vào giới hạn độ dài query của MySQL hỗ trợ)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1180" y="170" width="320" height="100" as="geometry" />
@@ -157,8 +172,14 @@
         <mxCell id="-hZnS3dMEDEPs46StDpL-33" value="Batch_all" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2100" y="230" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-hZnS3dMEDEPs46StDpL-34" value="Batch_diff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2100" y="455" width="160" height="60" as="geometry" />
+        <mxCell id="-hZnS3dMEDEPs46StDpL-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-34" target="-hZnS3dMEDEPs46StDpL-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-34" target="-hZnS3dMEDEPs46StDpL-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-34" value="Logic filter lấy works cho từng công tường, theo các điều kiện tương ứng để chạy batch_diff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="590" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-37" value="Batch_diff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="680" width="160" height="60" as="geometry" />
@@ -166,8 +187,20 @@
         <mxCell id="-hZnS3dMEDEPs46StDpL-38" value="Batch_diff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="680" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-hZnS3dMEDEPs46StDpL-39" value="&lt;b&gt;Chú ý&lt;br&gt;&lt;/b&gt;1. Sẽ ghi lại log các batch chạy thành công, success&lt;br&gt;2. Việc chạy batch cho từng công trường là riêng biệt theo từng transaction =&amp;gt; Nếu 1 công trường có lỗi =&amp;gt; sẽ được log lại. Sẽ chạy tiếp các công trường tiếp theo&lt;br&gt;3. T" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-hZnS3dMEDEPs46StDpL-39" value="&lt;b&gt;Chú ý&lt;br&gt;&lt;/b&gt;1. Sẽ ghi lại log các batch chạy thành công, success&lt;br&gt;2. Việc chạy batch cho từng công trường là riêng biệt theo từng transaction =&amp;gt; Nếu 1 công trường có lỗi =&amp;gt; sẽ được log lại. Sẽ chạy tiếp các công trường tiếp theo&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="30" width="340" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-41" value="Batch_diff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="715" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-43" value="Mục đích là để xử lý lấy được &lt;b&gt;works&lt;/b&gt; cho &lt;b&gt;batch_diff&lt;/b&gt; &lt;b&gt;trước vòng loop&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="640" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-25" target="-hZnS3dMEDEPs46StDpL-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-50" value="1. Vì đang filter theo cặp [main, sub] -&amp;gt; ra các place_item_id_1,2,3,4&lt;br&gt;2. Vì đang xử lý cho tất cả các công trường =&amp;gt; sẽ xuất hiện các trường hợp 1 công trường trùng main/sub&lt;br&gt;=&amp;gt; Do đó việc xử filter này sẽ gặp việc sai số theo place_item_id_1,2,3,4 =&amp;gt; BUG" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="576.25" width="230" height="87.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
