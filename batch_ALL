@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T11:03:39.180Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="oJ9DSnv8SrXyTHeJ1Oa8" version="18.0.0" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-05-19T11:05:45.651Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="Gp3HwsjK11Aw7WZrcqyI" version="18.0.0" type="github" pages="11">
   <diagram id="qCwDrTf3kC02eRBuznIH" name="[T3] Flow batch">
     <mxGraphModel dx="1186" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -61,11 +61,14 @@
         <mxCell id="-hZnS3dMEDEPs46StDpL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H8UVCV-emLZ5qXkUvtzC-1" target="H8UVCV-emLZ5qXkUvtzC-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H8UVCV-emLZ5qXkUvtzC-1" target="-hZnS3dMEDEPs46StDpL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H8UVCV-emLZ5qXkUvtzC-1" value="Get all_works field_ids(1)&lt;br&gt;Get field_ids(2) có works thay đổi từ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="770" y="340" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H8UVCV-emLZ5qXkUvtzC-3" value="Bug1: Query hiện tại đang lấy works theo history chạy gần nhất =&amp;gt; đến thời điểm chạy" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="830" y="450" width="170" height="60" as="geometry" />
+          <mxGeometry x="740" y="460" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H8UVCV-emLZ5qXkUvtzC-4" value="Vấn đề ở logic lấy ra field_ids =&amp;gt; đang lấy groups theo field_id =&amp;gt; progress_setting&lt;br&gt;Sau đó xử lý ở dưới =&amp;gt; Cách đặt tên rất khó hiểu" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="460" width="170" height="60" as="geometry" />
@@ -75,6 +78,15 @@
         </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-5" value="Phát sinh bug" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="30" y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-6" target="-hZnS3dMEDEPs46StDpL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-6" value="Query main_other, sub_other" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-8" value="Nhằm mục đích xét other flag cho all_works data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="475" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
