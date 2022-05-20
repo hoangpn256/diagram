@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T11:31:44.546Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="e00Tiw2ZUzBBUESUqXiZ" version="18.0.0" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-05-20T01:24:20.538Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="wvZbzMRLqt3TrvurGENZ" version="18.0.0" type="github" pages="11">
   <diagram id="qCwDrTf3kC02eRBuznIH" name="[T3] Flow batch">
-    <mxGraphModel dx="1186" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -181,11 +181,20 @@
         <mxCell id="-hZnS3dMEDEPs46StDpL-34" value="Logic filter lấy works cho từng công tường, theo các điều kiện tương ứng để chạy batch_diff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="2060" y="590" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-hZnS3dMEDEPs46StDpL-37" value="Batch_diff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="840" width="160" height="60" as="geometry" />
+        <mxCell id="-hZnS3dMEDEPs46StDpL-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-37" target="-hZnS3dMEDEPs46StDpL-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-hZnS3dMEDEPs46StDpL-38" value="Batch_diff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="840" width="160" height="60" as="geometry" />
+        <mxCell id="-hZnS3dMEDEPs46StDpL-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-37" target="-hZnS3dMEDEPs46StDpL-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-37" value="Batch_diff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1020" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-38" target="-hZnS3dMEDEPs46StDpL-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-38" value="Kiểm tra works (truyền vào) có dữ liệu hay không =&amp;gt; raise lỗi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1020" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-39" value="&lt;b&gt;Chú ý&lt;br&gt;&lt;/b&gt;1. Sẽ ghi lại log các batch chạy thành công, success&lt;br&gt;2. Việc chạy batch cho từng công trường là riêng biệt theo từng transaction =&amp;gt; Nếu 1 công trường có lỗi =&amp;gt; sẽ được log lại. Sẽ chạy tiếp các công trường tiếp theo&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" width="340" height="95" as="geometry" />
@@ -198,6 +207,117 @@
         </mxCell>
         <mxCell id="-hZnS3dMEDEPs46StDpL-50" value="1. Vì đang filter theo cặp [main, sub] -&amp;gt; ra các place_item_id_1,2,3,4&lt;br&gt;2. Vì đang xử lý cho tất cả các công trường =&amp;gt; sẽ xuất hiện các trường hợp 1 công trường trùng main/sub&lt;br&gt;=&amp;gt; Do đó việc xử filter này sẽ gặp việc sai số theo place_item_id_1,2,3,4 =&amp;gt; BUG" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1790" y="576.25" width="230" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-53" target="-hZnS3dMEDEPs46StDpL-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-53" target="-hZnS3dMEDEPs46StDpL-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-53" value=" Loop works" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1020" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-55" target="-hZnS3dMEDEPs46StDpL-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-55" value="1. work bị xoá&lt;br&gt;2. work là other&lt;br&gt;3. state_handling = stopped" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="740" y="840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-57" target="-hZnS3dMEDEPs46StDpL-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-57" value="Query lấy ra result old cuối cùng" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="970" y="840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-58" target="-hZnS3dMEDEPs46StDpL-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-58" value="Query lấy ra progress_aggregated_work&amp;nbsp; cuối cùng" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-61" target="-hZnS3dMEDEPs46StDpL-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-61" target="-hZnS3dMEDEPs46StDpL-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-61" value="Xử lý tính toán results =&amp;gt; push vào mảng results" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-63" target="-hZnS3dMEDEPs46StDpL-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-63" value="Xoá agregated_works" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-65" target="-hZnS3dMEDEPs46StDpL-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-65" target="-hZnS3dMEDEPs46StDpL-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-65" value="Đối với trường hợp ngược lại trên" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1211" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-67" target="-hZnS3dMEDEPs46StDpL-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-67" value="Aggregated_works =&amp;gt; tồn tại" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1040" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-69" target="-hZnS3dMEDEPs46StDpL-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-69" value="Aggregated_works =&amp;gt; không tồn tại" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-72" target="-hZnS3dMEDEPs46StDpL-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-72" target="-hZnS3dMEDEPs46StDpL-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-72" value="Xử lý tính toán results =&amp;gt; push vào mảng results" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1040" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-74" target="-hZnS3dMEDEPs46StDpL-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-74" value="Update agregated_works" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1040" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-76" target="-hZnS3dMEDEPs46StDpL-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-76" target="-hZnS3dMEDEPs46StDpL-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-76" value="Xử lý tạo mới results =&amp;gt; push vào mảng results" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-78" target="-hZnS3dMEDEPs46StDpL-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-hZnS3dMEDEPs46StDpL-78" target="-hZnS3dMEDEPs46StDpL-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-78" value="push vào mảng agregated_works" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-80" value="Nhằm bulk insert result" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="1200" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-83" value="Nhằm bulk insert result" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="940" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-85" value="Nhằm bulk insert agregated_works" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1271" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-87" value="Thực hiện&lt;br&gt;1. bulk import result&lt;br&gt;2. bulk import aggregated_works&lt;br&gt;3. Update lại batch_jobs" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1825" y="1210" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-hZnS3dMEDEPs46StDpL-91" value="&lt;h1&gt;Các vấn đề cần chú ý&lt;/h1&gt;&lt;p&gt;1. Thực hiện query trong vòng loop nhiều =&amp;gt; cái này khả năng phải chấp nhận (ở phần xử lý batch_diff)&lt;/p&gt;&lt;p&gt;2. Coding cần refactoring khá nhiều =&amp;gt; để cho dễ đọc, maintain&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1180" width="270" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
