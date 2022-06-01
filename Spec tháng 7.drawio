@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T04:31:06.275Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="dUOt0oKlEV_UDw0jikRp" version="18.1.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-06-01T04:47:39.231Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="GdV3lFDpfEJ6myJ440GM" version="18.1.3" type="github" pages="9">
   <diagram id="FRml3sk5jPOYkEMEwbq5" name="A-100-2">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -806,13 +806,55 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3ymubGuiKYVEdDKVG0BV-1" value="ccus_state_managements" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="130" width="280" height="78" as="geometry" />
+          <mxGeometry x="40" y="40" width="280" height="78" as="geometry" />
         </mxCell>
         <mxCell id="3ymubGuiKYVEdDKVG0BV-2" value="+ ccus_jigyousya_id: string, CCUS事業者ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3ymubGuiKYVEdDKVG0BV-1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="3ymubGuiKYVEdDKVG0BV-3" value="+ ccus_jigyousya_name: string, CCUS事業者名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3ymubGuiKYVEdDKVG0BV-1">
           <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ymubGuiKYVEdDKVG0BV-5" target="3ymubGuiKYVEdDKVG0BV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ymubGuiKYVEdDKVG0BV-5" target="3ymubGuiKYVEdDKVG0BV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ymubGuiKYVEdDKVG0BV-6" target="3ymubGuiKYVEdDKVG0BV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-6" value="create ccus_basic_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ymubGuiKYVEdDKVG0BV-7" target="3ymubGuiKYVEdDKVG0BV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-7" value="update ccus_basic_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-9" value="ccus_state_management_id" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-12" value="ccus_state_management_id" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ymubGuiKYVEdDKVG0BV-17" target="3ymubGuiKYVEdDKVG0BV-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ymubGuiKYVEdDKVG0BV-17" target="3ymubGuiKYVEdDKVG0BV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-17" value="Validator&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-18" value="0. &lt;b&gt;Required&lt;/b&gt; params ccus_state_management_id&lt;br&gt;1. Tìm bản ghi ccus_state_managements trong db (nếu không có báo lỗi)&lt;br&gt;2. Lấy thông tin ccus_state_managements.ccus_jigyousya_id để so sánh với ccus_jigyousya_id input ở màn hình" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="390" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3ymubGuiKYVEdDKVG0BV-22" value="Process như cũ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
