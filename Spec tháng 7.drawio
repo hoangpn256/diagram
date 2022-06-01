@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T06:41:11.886Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="_iKf_ME3NCARtClEcH0I" version="18.1.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-06-01T10:05:06.356Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="8C0MHX3HBifYWVTRTltC" version="18.1.3" type="github" pages="9">
   <diagram id="FRml3sk5jPOYkEMEwbq5" name="A-100-2">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -777,7 +777,7 @@
           <mxGeometry x="1010" y="275" width="600" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Xds3AgYNDtgFCF8s7Ewq-9" value="Trường hợp là công ty hợp tác&#xa;├Không có công nhân nào đang thực hiện liên kết Kỹ thuật viên CCUS trong nội bộ công ty mình&#xa;├Không thực hiện liên kết hệ thống xây dựng&#xa;└Tại công nhân của công ty mình không có công nhân nào đang gửi lịch sử đi làm(就業履歴)" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="405" width="550" height="70" as="geometry" />
+          <mxGeometry x="1010" y="405" width="540" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Xds3AgYNDtgFCF8s7Ewq-11" value="Kiểm tra lại API CONNECT CCUS có trả về thông tin tương ứng hay không ???" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1485" y="80" width="150" height="60" as="geometry" />
