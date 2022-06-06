@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T06:30:51.514Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="5x8SFKfST2ZxHGK_e5ly" version="18.2.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-06-06T06:31:25.339Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="Wq4Ji2OsNaRqKFhoRx0h" version="18.2.1" type="github" pages="9">
   <diagram id="FRml3sk5jPOYkEMEwbq5" name="A-100-2">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,6 +107,9 @@
         <mxCell id="TG4D0OEDfQDXOAZvTOnK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TG4D0OEDfQDXOAZvTOnK-3" target="TG4D0OEDfQDXOAZvTOnK-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GETjNIANWlbGr18yzZ5b-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TG4D0OEDfQDXOAZvTOnK-3" target="GETjNIANWlbGr18yzZ5b-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TG4D0OEDfQDXOAZvTOnK-3" value="GET list, list_diff" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="140" width="150" height="60" as="geometry" />
         </mxCell>
@@ -118,6 +121,9 @@
         </mxCell>
         <mxCell id="TG4D0OEDfQDXOAZvTOnK-8" value="Đối ứng version&lt;br&gt;Vì API cũ chưa có version" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GETjNIANWlbGr18yzZ5b-1" value="Có sự update lớn về response =&amp;gt; đang đợi spec" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="640" y="384" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
