@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T06:56:42.026Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="U8fQoc9BSPuv9-KaKYK9" version="18.2.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-06-06T09:42:51.626Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="-gknCZwObO_gz6COm2-Z" version="18.2.1" type="github" pages="10">
   <diagram id="FRml3sk5jPOYkEMEwbq5" name="A-100-2">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -767,6 +767,50 @@
         <mxCell id="cdYIK2PxdFqXyh_vGZtE-7" value="Thêm mới hoàn toàn" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="700" y="320" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="4-48GnOWlHiPGzAJaiVz-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dEmZQHjr0_sCVtXuoZdM" name="B-324">
+    <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HsLsI7Voz1JdIJActc3c-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HsLsI7Voz1JdIJActc3c-1" target="HsLsI7Voz1JdIJActc3c-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsLsI7Voz1JdIJActc3c-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HsLsI7Voz1JdIJActc3c-1" target="HsLsI7Voz1JdIJActc3c-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsLsI7Voz1JdIJActc3c-1" value="GRP1: validate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsLsI7Voz1JdIJActc3c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HsLsI7Voz1JdIJActc3c-2" target="HsLsI7Voz1JdIJActc3c-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsLsI7Voz1JdIJActc3c-2" value="Thêm mới API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsLsI7Voz1JdIJActc3c-3" value="Kiểm tra có bản ghi trùng lặp trong database hay không theo điều kiện (1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="200" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsLsI7Voz1JdIJActc3c-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HsLsI7Voz1JdIJActc3c-6" target="HsLsI7Voz1JdIJActc3c-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsLsI7Voz1JdIJActc3c-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HsLsI7Voz1JdIJActc3c-6" target="HsLsI7Voz1JdIJActc3c-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsLsI7Voz1JdIJActc3c-6" value="Điều kiện (1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsLsI7Voz1JdIJActc3c-8" value="&lt;div data-ccp-timestamp=&quot;1654497727156&quot;&gt;&lt;table style=&quot;border-collapse:collapse;width:424pt&quot; width=&quot;565&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width:424pt&quot; width=&quot;565&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height:42.0pt&quot; height=&quot;56&quot;&gt;&lt;td style=&quot;width:424pt;height:42.0pt&quot; class=&quot;xl115&quot; height=&quot;56&quot; width=&quot;565&quot;&gt;Điều kiện check trùng lặp như dưới đây. &lt;br&gt;1. Tổ hợp của 許可元区分/Phân loại nguồn cấp phép+都道府県/Tỉnh thành +許可番号/Mã số cấp phép&lt;br&gt;2. Nếu phân loại nguồn cấp phép là 大臣/Bộ trưởng, thì sẽ loại trừ tỉnh thành.&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="355" width="555" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HsLsI7Voz1JdIJActc3c-12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Không tiến hành check trong cùng 1 cty(trụ sở chính vs chi nhánh), chỉ tiến hành check giữa các công ty vs nhau (company_id khác nhau)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="550" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -825,47 +869,6 @@
         </mxCell>
         <mxCell id="3ymubGuiKYVEdDKVG0BV-22" value="Process như cũ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="dEmZQHjr0_sCVtXuoZdM" name="B-324">
-    <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="HsLsI7Voz1JdIJActc3c-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HsLsI7Voz1JdIJActc3c-1" target="HsLsI7Voz1JdIJActc3c-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HsLsI7Voz1JdIJActc3c-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HsLsI7Voz1JdIJActc3c-1" target="HsLsI7Voz1JdIJActc3c-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HsLsI7Voz1JdIJActc3c-1" value="GRP1: validate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HsLsI7Voz1JdIJActc3c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HsLsI7Voz1JdIJActc3c-2" target="HsLsI7Voz1JdIJActc3c-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HsLsI7Voz1JdIJActc3c-2" value="Thêm mới API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HsLsI7Voz1JdIJActc3c-3" value="Kiểm tra có bản ghi trùng lặp trong database hay không theo điều kiện (1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="525" y="200" width="225" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HsLsI7Voz1JdIJActc3c-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HsLsI7Voz1JdIJActc3c-6" target="HsLsI7Voz1JdIJActc3c-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HsLsI7Voz1JdIJActc3c-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HsLsI7Voz1JdIJActc3c-6" target="HsLsI7Voz1JdIJActc3c-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HsLsI7Voz1JdIJActc3c-6" value="Điều kiện (1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HsLsI7Voz1JdIJActc3c-8" value="&lt;div data-ccp-timestamp=&quot;1654497727156&quot;&gt;&lt;table style=&quot;border-collapse:collapse;width:424pt&quot; width=&quot;565&quot;&gt;&lt;colgroup&gt;&lt;col style=&quot;width:424pt&quot; width=&quot;565&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height:42.0pt&quot; height=&quot;56&quot;&gt;&lt;td style=&quot;width:424pt;height:42.0pt&quot; class=&quot;xl115&quot; height=&quot;56&quot; width=&quot;565&quot;&gt;Điều kiện check trùng lặp như dưới đây. &lt;br&gt;1. Tổ hợp của 許可元区分/Phân loại nguồn cấp phép+都道府県/Tỉnh thành +許可番号/Mã số cấp phép&lt;br&gt;2. Nếu phân loại nguồn cấp phép là 大臣/Bộ trưởng, thì sẽ loại trừ tỉnh thành.&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="355" width="555" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="HsLsI7Voz1JdIJActc3c-12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Không tiến hành check trong cùng 1 cty(trụ sở chính vs chi nhánh), chỉ tiến hành check giữa các công ty vs nhau (company_id khác nhau)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="450" width="550" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
