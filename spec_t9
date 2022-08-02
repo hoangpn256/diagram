@@ -1,11 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T07:41:22.841Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="dMZdhy6bT9LMGwYoi3HE" version="20.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-02T07:52:00.811Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="KFIuCO6VPDBs7qVTZgvz" version="20.0.3" type="github" pages="2">
   <diagram id="YjhZogwESWmgCQgEoa1n" name="bulk update work">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JVdyLQfJLetr1SWmFW_K-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="230" width="120" height="80" as="geometry" />
+        <mxCell id="cBMBGxG2cYTCTbMzxddu-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="600" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="my_TFCEesV7IrnADmwcN-9" target="my_TFCEesV7IrnADmwcN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="my_TFCEesV7IrnADmwcN-9" target="my_TFCEesV7IrnADmwcN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="my_TFCEesV7IrnADmwcN-9" target="my_TFCEesV7IrnADmwcN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="my_TFCEesV7IrnADmwcN-9" target="my_TFCEesV7IrnADmwcN-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-9" value="multiple update work" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="my_TFCEesV7IrnADmwcN-11" target="my_TFCEesV7IrnADmwcN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-11" value="WorkMultipleUpdateLogic.validate!" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="102.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-12" value="Validate max record = 200" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="100" width="145" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="my_TFCEesV7IrnADmwcN-14" target="my_TFCEesV7IrnADmwcN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-14" value="ghi log&amp;nbsp;output_logs_for_bug_investigation&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="172.5" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-15" value="Ghi log để điều tra bug" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="172.5" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="my_TFCEesV7IrnADmwcN-18" target="my_TFCEesV7IrnADmwcN-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-18" value="WorkMultipleUpdateLogic.multiple_update!" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="310" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-29" value="return về kết quả cho client" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="my_TFCEesV7IrnADmwcN-30" value="1. Duyệt bản ghi works =&amp;gt; &lt;b&gt;update vào trong db&lt;/b&gt;&amp;nbsp;theo id tương ứng&lt;br&gt;2. Những bản ghi nào không tìm thấy trong db =&amp;gt; &lt;b&gt;SKIP, không báo lỗi&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="282.5" width="220" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Gtq7suHDPDcWw8xthOj0-1" value="Transaction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="260" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -103,7 +151,7 @@
           <mxGeometry x="370" y="510" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3T9wUJdADkjy8dmb1FC--35" value="1. Xử lý các validate riêng biệt hơn nữa&lt;br&gt;2. Sử dụng func raise thẳng error&lt;br&gt;3. Xử lý save data cho work" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="650" y="285" width="200" height="80" as="geometry" />
+          <mxGeometry x="650" y="285" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3T9wUJdADkjy8dmb1FC--38" value="Transaction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="283" y="214" width="70" height="30" as="geometry" />
