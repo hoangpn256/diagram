@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T09:44:03.001Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="vXS6lZMSLJpm6YNRw1CL" version="20.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-02T10:20:22.276Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="xrhALa9WPlBs20G137Cu" version="20.0.3" type="github" pages="2">
   <diagram id="YjhZogwESWmgCQgEoa1n" name="bulk update work">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="K417azRKcKMo1winmq6I-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1086" width="830" height="374" as="geometry" />
+          <mxGeometry x="250" y="1570" width="830" height="374" as="geometry" />
         </mxCell>
         <mxCell id="cBMBGxG2cYTCTbMzxddu-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="300" y="390" width="600" height="240" as="geometry" />
@@ -70,12 +70,6 @@
         <mxCell id="7EZFWyfA97zcG1FJR7pC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7EZFWyfA97zcG1FJR7pC-6" target="7EZFWyfA97zcG1FJR7pC-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K417azRKcKMo1winmq6I-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=default;" edge="1" parent="1" source="7EZFWyfA97zcG1FJR7pC-6" target="K417azRKcKMo1winmq6I-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="K417azRKcKMo1winmq6I-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=default;" edge="1" parent="1" source="7EZFWyfA97zcG1FJR7pC-6" target="K417azRKcKMo1winmq6I-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="7EZFWyfA97zcG1FJR7pC-6" value="multiple update work" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="990" width="110" height="50" as="geometry" />
         </mxCell>
@@ -115,7 +109,7 @@
           <mxGeometry x="350" y="1150" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7EZFWyfA97zcG1FJR7pC-15" value="return về kết quả cho client" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1420" width="160" height="30" as="geometry" />
+          <mxGeometry x="350" y="1470" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0QzQPnhRHsvRJtqAW9bF-1" value="check_work_date_period" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="922.5" width="150" height="30" as="geometry" />
@@ -130,42 +124,22 @@
           <mxGeometry x="320" y="1090" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K417azRKcKMo1winmq6I-18" value="WorkLogic.save" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="890" y="1136" width="100" height="30" as="geometry" />
+          <mxGeometry x="790" y="1100" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K417azRKcKMo1winmq6I-19" value="check_relation_foreman_and_job_at_update" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="890" y="1166" width="250" height="30" as="geometry" />
+          <mxGeometry x="790" y="1130" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K417azRKcKMo1winmq6I-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=default;" edge="1" parent="1" source="K417azRKcKMo1winmq6I-21" target="K417azRKcKMo1winmq6I-25">
+        <mxCell id="K417azRKcKMo1winmq6I-21" value="create_notice_user_history" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1160" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K417azRKcKMo1winmq6I-23" value="create_work_update_notice" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1190" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K417azRKcKMo1winmq6I-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=default;" edge="1" parent="1" source="K417azRKcKMo1winmq6I-35" target="K417azRKcKMo1winmq6I-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K417azRKcKMo1winmq6I-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;labelBorderColor=default;" edge="1" parent="1" source="K417azRKcKMo1winmq6I-21" target="K417azRKcKMo1winmq6I-26">
+        <mxCell id="K417azRKcKMo1winmq6I-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=default;" edge="1" parent="1" source="K417azRKcKMo1winmq6I-35" target="K417azRKcKMo1winmq6I-23">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="K417azRKcKMo1winmq6I-21" value="bulk create_notice_user_history" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1246" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="K417azRKcKMo1winmq6I-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=default;" edge="1" parent="1" source="K417azRKcKMo1winmq6I-23" target="K417azRKcKMo1winmq6I-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="K417azRKcKMo1winmq6I-23" value="bulk create_work_update_notice" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1340" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="K417azRKcKMo1winmq6I-25" value="Viết logic mới base trên logic cũ" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1229" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="K417azRKcKMo1winmq6I-26" value="Dùng function import =&amp;gt; tối ưu performance" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1263" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="K417azRKcKMo1winmq6I-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;labelBorderColor=default;" edge="1" parent="1" target="K417azRKcKMo1winmq6I-31" source="K417azRKcKMo1winmq6I-23">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="1375" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K417azRKcKMo1winmq6I-31" value="Viết logic mới base trên logic cũ" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1321" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="K417azRKcKMo1winmq6I-32" value="Dùng function import =&amp;gt; tối ưu performance" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1361" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K417azRKcKMo1winmq6I-35" value="loop params[:works]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="630" y="1147.5" width="120" height="35" as="geometry" />
