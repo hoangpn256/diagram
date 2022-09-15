@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T10:12:58.090Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4kJRxuRMOpu2ONxeA9WJ" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-15T10:13:22.393Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="VwMtLP8JL7N0sQunXX0T" version="20.3.0" type="github" pages="3">
   <diagram id="bFb8ke-Bf2HepMG61boC" name="A-300">
     <mxGraphModel dx="1372" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -147,8 +147,10 @@
             <mxPoint x="570" y="145" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZS6wvJeNVBbGOsMHC3wF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q6cRgZX-3zzS3Cezf1GD-7" target="ZS6wvJeNVBbGOsMHC3wF-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZS6wvJeNVBbGOsMHC3wF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q6cRgZX-3zzS3Cezf1GD-7" target="KGf9b7gVPYsO6CLeIIBB-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="230.05882352941194" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Q6cRgZX-3zzS3Cezf1GD-7" value="Mục đích" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="170" width="120" height="60" as="geometry" />
@@ -189,9 +191,6 @@
         <mxCell id="ZS6wvJeNVBbGOsMHC3wF-3" value="một chủ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZS6wvJeNVBbGOsMHC3wF-4">
           <mxGeometry x="50" y="40" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZS6wvJeNVBbGOsMHC3wF-7" value="Tăng tính cạnh tranh cho việc kinh doanh" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="570" y="210" width="260" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="ZS6wvJeNVBbGOsMHC3wF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZS6wvJeNVBbGOsMHC3wF-9" target="Q6cRgZX-3zzS3Cezf1GD-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -217,7 +216,7 @@
           <mxGeometry x="930" y="530" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZS6wvJeNVBbGOsMHC3wF-30" value="&lt;span style=&quot;text-align: left;&quot;&gt;Ảnh hưởng chủ yếu bên GF&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Thể hiện đúng là công ty có phải là công ty một chủ hay không? (liên quan pháp luật)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="130" width="320" height="50" as="geometry" />
+          <mxGeometry x="600" y="130" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZS6wvJeNVBbGOsMHC3wF-31" value="&lt;b&gt;Màn hình&lt;/b&gt; &lt;b&gt;update:&amp;nbsp;&lt;/b&gt;Cần liệt kê tất cả các màn hình update công ty hợp tác&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="930" y="620" width="160" height="50" as="geometry" />
@@ -239,6 +238,9 @@
         </mxCell>
         <mxCell id="KGf9b7gVPYsO6CLeIIBB-4" value="Màn hình import worker ..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="790" y="760" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KGf9b7gVPYsO6CLeIIBB-8" value="&lt;span style=&quot;text-align: left;&quot;&gt;Tăng tính cạnh tranh cho việc kinh doanh&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="230" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
