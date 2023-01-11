@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T05:55:06.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="OoxgM1yKg92qPRlwpTcH" version="20.4.0" type="github">
-  <diagram id="7YUXccisiuUH3jSbkz8L" name="Trang-3">
+<mxfile host="app.diagrams.net" modified="2023-01-11T06:07:06.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ORbK3MJ1BTrFGz5UZLuE" version="20.4.0" type="github">
+  <diagram id="7YUXccisiuUH3jSbkz8L" name="BrSE flow">
     <mxGraphModel dx="1186" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGeiYoF8FAxPz7rTZDeW-1" target="GGeiYoF8FAxPz7rTZDeW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-1" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGeiYoF8FAxPz7rTZDeW-2" target="GGeiYoF8FAxPz7rTZDeW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="GGeiYoF8FAxPz7rTZDeW-2" target="GGeiYoF8FAxPz7rTZDeW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-2" value="BrSE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-4" value="Task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGeiYoF8FAxPz7rTZDeW-6" target="GGeiYoF8FAxPz7rTZDeW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-6" value="Customer Task (EPIC)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-7" value="Task 1: A-xxx: Estimate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="GGeiYoF8FAxPz7rTZDeW-6">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-8" value="Task 2: A-xxx Xử lý" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="GGeiYoF8FAxPz7rTZDeW-6">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-9" value="Task 3: B-xxx" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="GGeiYoF8FAxPz7rTZDeW-6">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-12" value="1. Spec&lt;br&gt;2. Deadline&lt;br&gt;3. Độ ưu tiên&lt;br&gt;4. MS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="255" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGeiYoF8FAxPz7rTZDeW-7" target="GGeiYoF8FAxPz7rTZDeW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-15" value="Tạo task vào jira" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGeiYoF8FAxPz7rTZDeW-16" target="GGeiYoF8FAxPz7rTZDeW-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-16" value="PM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-17" value="Customer Task (EPIC)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="240" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-18" value="Task 1: A-xxx: Estimate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="GGeiYoF8FAxPz7rTZDeW-17">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-19" value="Task 3: B-xxx" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="GGeiYoF8FAxPz7rTZDeW-17">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-20" value="Task 2: A-xxx Xử lý" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="GGeiYoF8FAxPz7rTZDeW-17">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-26" value="PM xử lý lấy task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-27" value="Member xử lý" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="201" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGeiYoF8FAxPz7rTZDeW-18" target="GGeiYoF8FAxPz7rTZDeW-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-30" value="Ping PM (nếu có thể)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="110" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGeiYoF8FAxPz7rTZDeW-31" target="GGeiYoF8FAxPz7rTZDeW-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-31" value="&lt;b&gt;Ví dụ&lt;br&gt;&lt;/b&gt;1. BrSE làm tài liệu từ task JP =&amp;gt; VN&lt;br&gt;2. Leader estimate&lt;br&gt;2.1 Leader assign team member est" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="955" y="60" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGeiYoF8FAxPz7rTZDeW-35" target="GGeiYoF8FAxPz7rTZDeW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGeiYoF8FAxPz7rTZDeW-35" value="1. Task khách hàng nhờ team est&lt;br&gt;2. Task khách hàng nhờ team điều tra&lt;br&gt;3. Task khách hàng nhờ BrSE xử lý nhanh&lt;br&gt;....&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="30" width="230" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
