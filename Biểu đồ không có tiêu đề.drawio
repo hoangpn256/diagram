@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T10:22:15.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Cvz6g1niAr0ftrwtCESt" version="21.3.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-06-14T04:48:14.963Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0gXAM80RWc390A6a6198" version="21.3.7" type="github" pages="10">
   <diagram id="bFb8ke-Bf2HepMG61boC" name="A-300">
     <mxGraphModel dx="1194" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1046,7 +1046,7 @@
           <mxGeometry x="762" y="215" width="848" height="360" as="geometry" />
         </mxCell>
         <mxCell id="ACsSpPakMwnns6fUd7po-5" value="FE" style="shape=table;startSize=31;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-1">
-          <mxGeometry x="807" y="295" width="216" height="146.75" as="geometry" />
+          <mxGeometry x="807" y="295" width="216" height="147" as="geometry" />
         </mxCell>
         <mxCell id="ACsSpPakMwnns6fUd7po-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-5">
           <mxGeometry y="31" width="216" height="36" as="geometry" />
@@ -1056,7 +1056,7 @@
             <mxRectangle width="50" height="36" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-8" value="Nguyễn Hữu Dương(90%)&lt;br&gt;Bùi Văn Dũng&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-6">
+        <mxCell id="ACsSpPakMwnns6fUd7po-8" value="DuongNH1(80%)&lt;br&gt;DungBV" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-6">
           <mxGeometry x="50" width="166" height="36" as="geometry">
             <mxRectangle width="166" height="36" as="alternateBounds" />
           </mxGeometry>
@@ -1124,7 +1124,7 @@
             <mxRectangle width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-27" value="Nguyễn Hoàng Bách&lt;br&gt;AnhNTT" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-25">
+        <mxCell id="ACsSpPakMwnns6fUd7po-27" value="BachNH&lt;br&gt;AnhNTT" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-25">
           <mxGeometry x="50" width="160" height="40" as="geometry">
             <mxRectangle width="160" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1194,7 +1194,7 @@
             <mxRectangle width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-46" value="Nguyễn Thị Hằng(90%)&lt;br&gt;AnhNT" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-44">
+        <mxCell id="ACsSpPakMwnns6fUd7po-46" value="HangNT(90%)&lt;br&gt;AnhNT" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-44">
           <mxGeometry x="50" width="150" height="40" as="geometry">
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1252,25 +1252,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ACsSpPakMwnns6fUd7po-65" value="BrSE(JP)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-1">
-          <mxGeometry x="450" y="344" width="200" height="110" as="geometry">
+          <mxGeometry x="450" y="344" width="200" height="94" as="geometry">
             <mxRectangle x="340" y="70" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-66" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-65">
-          <mxGeometry y="30" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-67" value="TL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-66">
-          <mxGeometry width="50" height="40" as="geometry">
-            <mxRectangle width="50" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-68" value="Kiều Bảo Duy(20%)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-66">
-          <mxGeometry x="50" width="150" height="40" as="geometry">
-            <mxRectangle width="150" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ACsSpPakMwnns6fUd7po-69" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ACsSpPakMwnns6fUd7po-65">
-          <mxGeometry y="70" width="200" height="20" as="geometry" />
+          <mxGeometry y="30" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ACsSpPakMwnns6fUd7po-70" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-69">
           <mxGeometry width="50" height="20" as="geometry">
@@ -1283,7 +1270,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ACsSpPakMwnns6fUd7po-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ACsSpPakMwnns6fUd7po-65">
-          <mxGeometry y="90" width="200" height="20" as="geometry" />
+          <mxGeometry y="50" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ACsSpPakMwnns6fUd7po-73" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-72">
           <mxGeometry width="50" height="20" as="geometry">
@@ -1295,13 +1282,26 @@
             <mxRectangle width="150" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="_cbfg9o0oWth1sMuKMRt-0" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ACsSpPakMwnns6fUd7po-65">
+          <mxGeometry y="70" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="_cbfg9o0oWth1sMuKMRt-1" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="_cbfg9o0oWth1sMuKMRt-0">
+          <mxGeometry width="50" height="24" as="geometry">
+            <mxRectangle width="50" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cbfg9o0oWth1sMuKMRt-2" value="DuyKB (20%)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="_cbfg9o0oWth1sMuKMRt-0">
+          <mxGeometry x="50" width="150" height="24" as="geometry">
+            <mxRectangle width="150" height="24" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ACsSpPakMwnns6fUd7po-75" value="PM" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-1">
           <mxGeometry x="160" y="435" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ACsSpPakMwnns6fUd7po-76" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-75">
           <mxGeometry y="30" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-77" value="Nguyễn Đức Phương&lt;br&gt;Phạm Ngọc Hoàng" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-76">
+        <mxCell id="ACsSpPakMwnns6fUd7po-77" value="PhuongND&lt;br&gt;HoangPN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-76">
           <mxGeometry width="200" height="80" as="geometry">
             <mxRectangle width="200" height="80" as="alternateBounds" />
           </mxGeometry>
@@ -1312,7 +1312,7 @@
         <mxCell id="ACsSpPakMwnns6fUd7po-79" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-78">
           <mxGeometry y="30" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-80" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Hoàng Thị Kim Oanh&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-79">
+        <mxCell id="ACsSpPakMwnns6fUd7po-80" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;OanhNTK&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-79">
           <mxGeometry width="200" height="40" as="geometry">
             <mxRectangle width="200" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1330,7 +1330,7 @@
             <mxRectangle width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-84" value="Đinh Diệu Linh" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-82">
+        <mxCell id="ACsSpPakMwnns6fUd7po-84" value="LinhDD" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-82">
           <mxGeometry x="50" width="150" height="40" as="geometry">
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1346,7 +1346,7 @@
             <mxRectangle width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-88" value="Nguyễn Văn Hiểu&lt;br&gt;Nguyễn Hữu Dương (10%)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-86">
+        <mxCell id="ACsSpPakMwnns6fUd7po-88" value="HieuNV1&lt;br&gt;DuongNH1 (10%)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-86">
           <mxGeometry x="50" width="175" height="40" as="geometry">
             <mxRectangle width="175" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1375,7 +1375,7 @@
             <mxRectangle width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-98" value="Nguyễn Thị Hằng(10%)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-96">
+        <mxCell id="ACsSpPakMwnns6fUd7po-98" value="HangNT(10%)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-96">
           <mxGeometry x="50" width="150" height="40" as="geometry">
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1406,7 +1406,7 @@
             <mxRectangle width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-108" value="Kiều Bảo Duy(80%)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-106">
+        <mxCell id="ACsSpPakMwnns6fUd7po-108" value="DuyKB(80%)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ACsSpPakMwnns6fUd7po-106">
           <mxGeometry x="50" width="150" height="40" as="geometry">
             <mxRectangle width="150" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -1423,8 +1423,10 @@
             <mxPoint x="810" y="565" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACsSpPakMwnns6fUd7po-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ACsSpPakMwnns6fUd7po-1" source="ACsSpPakMwnns6fUd7po-66" target="ACsSpPakMwnns6fUd7po-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ACsSpPakMwnns6fUd7po-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ACsSpPakMwnns6fUd7po-1" target="ACsSpPakMwnns6fUd7po-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="394" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ACsSpPakMwnns6fUd7po-113" value="&lt;b&gt;BrSE&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ACsSpPakMwnns6fUd7po-1">
           <mxGeometry x="430" y="215" width="60" height="30" as="geometry" />
