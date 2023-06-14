@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T09:43:38.022Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fjS9pyjTUgWqOKTdiXYq" version="21.3.7" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-06-14T09:45:39.383Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="IjHO4a_vecCovve03J2-" version="21.3.7" type="github" pages="11">
   <diagram id="bFb8ke-Bf2HepMG61boC" name="A-300">
     <mxGraphModel dx="1194" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2512,12 +2512,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Trang-7" id="WLicLs1X9au5JtmPQk1s">
-    <mxGraphModel dx="1762" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5736" dy="3212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hfwVh8RZHgWyPrvkax_t-1" value="Quy trình phát triển phần mềm team dự án Buildee" style="shape=table;childLayout=tableLayout;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry y="-290" width="920" height="1890" as="geometry" />
+          <mxGeometry x="367" y="130" width="920" height="1890" as="geometry" />
         </mxCell>
         <mxCell id="hfwVh8RZHgWyPrvkax_t-2" value="Nhận task- Estimate" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;strokeColor=inherit;bottom=0;right=0;dropTarget=0;fontStyle=1;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=30;collapsible=0;recursiveResize=0;expand=0;fontSize=16;verticalAlign=top;" parent="hfwVh8RZHgWyPrvkax_t-1" vertex="1">
           <mxGeometry y="40" width="920" height="340" as="geometry" />
